@@ -1,0 +1,3957 @@
+{
+  "metadata": {
+    "document": "Emirates Code for Government Services",
+    "version": "2024",
+    "total_pillars": 8,
+    "total_categories": 61,
+    "codes_in_prototype": 134,
+    "total_codes_full": "350+",
+    "pillars_included": [
+      1,
+      2,
+      8
+    ],
+    "note": "Partial extraction: Pillars 1, 2, 8. Remaining pillars (3-7) to be extracted from full PDF."
+  },
+  "pillars": [
+    {
+      "id": 1,
+      "name_en": "Simpler, Easier, Faster Experience",
+      "name_ar": "تجربة أبسط.. أسهل.. أسرع",
+      "categories": [
+        {
+          "number": "1.1",
+          "name_en": "Accessibility Standards",
+          "name_ar": "معايير الوصول"
+        },
+        {
+          "number": "1.2",
+          "name_en": "Form Quality and Validation Features",
+          "name_ar": "جودة النماذج وخصائص التحقق"
+        },
+        {
+          "number": "1.3",
+          "name_en": "Language Consistency in User Journey",
+          "name_ar": "توافق اللغات في رحلة المستخدم"
+        },
+        {
+          "number": "1.4",
+          "name_en": "Digital Literacy and Help Content",
+          "name_ar": "الإلمام الرقمي ومحتوى المساعدة"
+        },
+        {
+          "number": "1.5",
+          "name_en": "Simplifying Customer Journey and Information Requests",
+          "name_ar": "تبسيط رحلة المتعامل وطلب المعلومات"
+        },
+        {
+          "number": "1.6",
+          "name_en": "Clarity of Fees, Payment, and Receipts",
+          "name_ar": "وضوح الرسوم والدفع والإيصال"
+        },
+        {
+          "number": "1.7",
+          "name_en": "Instant Digital Support within Service Channel",
+          "name_ar": "الدعم الرقمي الفوري ضمن قناة الخدمة"
+        },
+        {
+          "number": "1.8",
+          "name_en": "Channel Effectiveness in Low Connectivity Environments",
+          "name_ar": "فعالية القنوات في بيئة الاتصال الضعيفة"
+        },
+        {
+          "number": "1.9",
+          "name_en": "Content Consistency and National Design System",
+          "name_ar": "تناسق المحتوى ونظام التصميم الوطني"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_en": "Customer First",
+      "name_ar": "المتعامل أولاً",
+      "categories": [
+        {
+          "number": "2.1",
+          "name_en": "Service Performance Monitoring",
+          "name_ar": "رصد أداء الخدمات"
+        },
+        {
+          "number": "2.2",
+          "name_en": "Feedback Collection Mechanisms",
+          "name_ar": "آليات جمع الملاحظات"
+        },
+        {
+          "number": "2.3",
+          "name_en": "Satisfaction Measurement and Action Taking",
+          "name_ar": "قياس الرضا واتخاذ الإجراءات"
+        },
+        {
+          "number": "2.4",
+          "name_en": "Complaint Handling and Resolution",
+          "name_ar": "معالجة وحل الشكاوى"
+        },
+        {
+          "number": "2.5",
+          "name_en": "Customer Segmentation",
+          "name_ar": "تصنيف المتعاملين"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_en": "Humanizing Services",
+      "name_ar": "أنسنة الخدمات",
+      "categories": [
+        {
+          "number": "3.1",
+          "name_en": "Life Event Service Bundles",
+          "name_ar": "باقات خدمات الأحداث الحياتية"
+        },
+        {
+          "number": "3.2",
+          "name_en": "Proactive Service Delivery",
+          "name_ar": "تقديم الخدمات بشكل استباقي"
+        },
+        {
+          "number": "3.3",
+          "name_en": "Managing Customer Consent for Customization",
+          "name_ar": "إدارة موافقة المتعامل على التخصيص"
+        },
+        {
+          "number": "3.4",
+          "name_en": "Unified Customer Profile",
+          "name_ar": "ملف المتعامل الموحد"
+        },
+        {
+          "number": "3.5",
+          "name_en": "Auto-Adaptive Interfaces and Forms",
+          "name_ar": "واجهات ونماذج قابلة للتكيف التلقائي"
+        },
+        {
+          "number": "3.6",
+          "name_en": "Customized Notifications and Alerts",
+          "name_ar": "الإشعارات والتنبيهات المخصصة"
+        },
+        {
+          "number": "3.7",
+          "name_en": "Displaying Guidelines based on Customer Segmentation",
+          "name_ar": "عرض إرشادات حسب تصنيف المتعامل"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_en": "Experience Consistency Across Various Service Channels",
+      "name_ar": "اتساق التجربة عبر مختلف قنوات الخدمة",
+      "categories": [
+        {
+          "number": "4.1",
+          "name_en": "Service Channel Consistency",
+          "name_ar": "تناسق قنوات الخدمة"
+        },
+        {
+          "number": "4.2",
+          "name_en": "Continuity when Switching Between Channels",
+          "name_ar": "الاستمرارية عند التنقل بين القنوات"
+        },
+        {
+          "number": "4.3",
+          "name_en": "Support Channels Interconnectivity",
+          "name_ar": "ترابط قنوات الدعم"
+        },
+        {
+          "number": "4.4",
+          "name_en": "Unified Transaction Number and Data Matching",
+          "name_ar": "رقم معاملة موحد وتطابق البيانات"
+        },
+        {
+          "number": "4.5",
+          "name_en": "Request Status and Notifications Across All Channels",
+          "name_ar": "حالة الطلب والإشعارات في كافة القنوات"
+        },
+        {
+          "number": "4.6",
+          "name_en": "Universal Access Across All Channels",
+          "name_ar": "الوصول الشامل في كافة القنوات"
+        },
+        {
+          "number": "4.7",
+          "name_en": "Integration of In-Person Services and Appointment System",
+          "name_ar": "تكامل الخدمات الحضورية ونظام المواعيد"
+        },
+        {
+          "number": "4.8",
+          "name_en": "Service Directory and Guidelines",
+          "name_ar": "دليل الخدمات والإرشادات"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_en": "Flexible and Secure Digital Systems",
+      "name_ar": "أنظمة رقمية مرنة وآمنة",
+      "categories": [
+        {
+          "number": "5.1",
+          "name_en": "Identity and Access",
+          "name_ar": "الهوية والوصول"
+        },
+        {
+          "number": "5.2",
+          "name_en": "Data Transparency and Consents",
+          "name_ar": "شفافية البيانات والموافقات"
+        },
+        {
+          "number": "5.3",
+          "name_en": "Data Accuracy and Validity",
+          "name_ar": "دقة وصحة البيانات"
+        },
+        {
+          "number": "5.4",
+          "name_en": "Integration Between Systems and Data",
+          "name_ar": "التكامل بين الأنظمة والبيانات"
+        },
+        {
+          "number": "5.5",
+          "name_en": "Information Security and Fraud Protection",
+          "name_ar": "أمن المعلومات والحماية من الاحتيال"
+        },
+        {
+          "number": "5.6",
+          "name_en": "Auditable Records Accessible to Customers",
+          "name_ar": "سجلات قابلة للتدقيق ومتاحة للمتعاملين"
+        },
+        {
+          "number": "5.7",
+          "name_en": "Data Management and Privacy",
+          "name_ar": "إدارة البيانات والخصوصية"
+        },
+        {
+          "number": "5.8",
+          "name_en": "Secure and Reliable Payment Channels",
+          "name_ar": "قنوات دفع آمنة وموثوقة"
+        },
+        {
+          "number": "5.9",
+          "name_en": "Data Registries and Sharing",
+          "name_ar": "سجلات البيانات ومشاركتها"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name_en": "Culture of Outstanding Service",
+      "name_ar": "ثقافة الخدمة المتميزة",
+      "categories": [
+        {
+          "number": "6.1",
+          "name_en": "Access to Information and Guidelines",
+          "name_ar": "الوصول الى المعلومات والإرشادات"
+        },
+        {
+          "number": "6.2",
+          "name_en": "Training and Certifications",
+          "name_ar": "التدريب والشهادات"
+        },
+        {
+          "number": "6.3",
+          "name_en": "Complaint Receipt and Escalation",
+          "name_ar": "استلام الشكاوى والتصعيد"
+        },
+        {
+          "number": "6.4",
+          "name_en": "Culture of Outstanding Service",
+          "name_ar": "ثقافة الخدمة المتميزة"
+        },
+        {
+          "number": "6.5",
+          "name_en": "Access to Tools and Transactions",
+          "name_ar": "الوصول للأدوات والمعاملات"
+        },
+        {
+          "number": "6.6",
+          "name_en": "Collaboration Between Entities",
+          "name_ar": "التعاون بين الجهات"
+        },
+        {
+          "number": "6.7",
+          "name_en": "Performance Evaluation and Professional Guidance",
+          "name_ar": "تقييم الأداء والإرشاد المهني"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name_en": "Participatory Design",
+      "name_ar": "التصميم التشاركي",
+      "categories": [
+        {
+          "number": "7.1",
+          "name_en": "Continuous Engagement",
+          "name_ar": "التفاعل المستمر"
+        },
+        {
+          "number": "7.2",
+          "name_en": "Co-Design and Beta Testing",
+          "name_ar": "التصميم والاختبار التجريبي المشترك"
+        },
+        {
+          "number": "7.3",
+          "name_en": "Inclusivity of Participation",
+          "name_ar": "شمولية المشاركة"
+        },
+        {
+          "number": "7.4",
+          "name_en": "You Engage, We Develop",
+          "name_ar": "أنت تتفاعل ونحن نطور"
+        },
+        {
+          "number": "7.5",
+          "name_en": "Customer Councils / Public Consultations",
+          "name_ar": "مجالس المتعاملين / الاستشارات العامة"
+        },
+        {
+          "number": "7.6",
+          "name_en": "Monitoring the Voice of the Community",
+          "name_ar": "رصد صوت المجتمع"
+        },
+        {
+          "number": "7.7",
+          "name_en": "Measuring and Monitoring Customer Engagement",
+          "name_ar": "قياس ورصد تفاعل المتعاملين"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name_en": "Service and Systems Efficiency",
+      "name_ar": "كفاءة الخدمة والأنظمة",
+      "categories": [
+        {
+          "number": "8.1",
+          "name_en": "Communication During Service Outages",
+          "name_ar": "التواصل في حالات انقطاع الخدمة"
+        },
+        {
+          "number": "8.2",
+          "name_en": "Alternative Paths",
+          "name_ar": "المسارات البديلة"
+        },
+        {
+          "number": "8.3",
+          "name_en": "Data Recovery",
+          "name_ar": "استرجاع البيانات"
+        },
+        {
+          "number": "8.4",
+          "name_en": "Payment Flexibility",
+          "name_ar": "مرونة الدفع"
+        },
+        {
+          "number": "8.5",
+          "name_en": "Security Incidents and Notifications",
+          "name_ar": "الحوادث الأمنية والإشعارات"
+        },
+        {
+          "number": "8.6",
+          "name_en": "Business Continuity for In-Person Services",
+          "name_ar": "استمرارية الأعمال للخدمات الحضورية"
+        },
+        {
+          "number": "8.7",
+          "name_en": "Service Continuity in Case of Supplier Service Outages",
+          "name_ar": "استمرارية الخدمات في حال تعطل خدمات الموردين"
+        },
+        {
+          "number": "8.8",
+          "name_en": "Systems Readiness Tests",
+          "name_ar": "اختبارات جاهزية الأنظمة"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "code": "1.1.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "All customer authentication steps, including login, password reset, and verification code entry, must meet WCAG 2.2 accessibility standards, provide clear error messages, allow sufficient time to complete the steps, and return the customer to the original service after successful authentication.",
+      "description_ar": "ضرورة استيفاء جميع خطوات مصادقة المتعامل، بما في ذلك تسجيل الدخول وإعادة تعيين كلمة المرور وإدخال رمز التحقق لمعايير إمكانية الوصول WCAG 2.2، وأن توفر رسائل خطأ واضحة، وتتيح وقتاً كافياً لإتمام الخطوات وتعيد المتعامل إلى الخدمة الأصلية بعد المصادقة الناجحة.",
+      "requirements": [
+        {
+          "text_en": "Meet WCAG 2.2 standards for all authentication steps",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Display clear error messages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Allow sufficient time to complete steps and return the customer to the original service",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "authentication",
+        "WCAG 2.2",
+        "accessibility",
+        "login",
+        "password reset",
+        "verification code",
+        "error messages",
+        "timeout"
+      ]
+    },
+    {
+      "code": "1.1.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "Every interactive element on the website pages must be fully operable using only a keyboard, with a logical tab order and a clear visual focus on the active element, to ensure tasks can be completed by users unable to use a mouse.",
+      "description_ar": "أن يكون كل عنصر تفاعلي على صفحات الموقع الإلكتروني قابلاً للتشغيل الكامل بواسطة لوحة المفاتيح فقط، مع ترتيب تبويب منطقي وتركيز مرئي واضح على العنصر النشط، لضمان إتمام المهام من قبل المستخدمين غير القادرين على استخدام الفأرة.",
+      "requirements": [
+        {
+          "text_en": "All interactive elements are fully operable by keyboard only",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Logical tab order and clear visual focus on the active element",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "keyboard navigation",
+        "accessibility",
+        "interactive elements",
+        "tab order",
+        "visual focus",
+        "mouse-free"
+      ]
+    },
+    {
+      "code": "1.1.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "Ensure all symbolic images contain brief alternative text (alt text) stating the image's function or meaning, so screen readers receive the same information as sighted users.",
+      "description_ar": "ضمان احتواء جميع الصور الرمزية على نص بديل موجز يذكر وظيفة الصورة أو معناها لضمان تلقي قارئ الشاشة نفس المعلومات التي يتلقاها المستخدم الذي يرى الصورة.",
+      "requirements": [
+        {
+          "text_en": "All symbolic images include brief alt text stating their function or meaning",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "alt text",
+        "images",
+        "screen reader",
+        "accessibility",
+        "visual impairment"
+      ]
+    },
+    {
+      "code": "1.1.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "Ensure all audio and video content provides synchronized captions and full transcripts in both Arabic and English to enable access for customers with disabilities.",
+      "description_ar": "ضمان توفير جميع المحتويات الصوتية والمرئية ترجمات متزامنة ونسخة كاملة باللغتين العربية والإنجليزية حتى يتمكن المتعاملين من أصحاب الهمم من الوصول إلى المحتوى.",
+      "requirements": [
+        {
+          "text_en": "Provide synchronized captions for all audio and video content",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide a full transcript in both Arabic and English",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "captions",
+        "transcripts",
+        "audio",
+        "video",
+        "accessibility",
+        "bilingual",
+        "people of determination"
+      ]
+    },
+    {
+      "code": "1.1.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "Provide text or icon indicators, alongside specific colors, in error, warning, and status messages, enabling users with color vision deficiencies to accurately interpret system feedback.",
+      "description_ar": "توفير مؤشرات نصية أو رمزية، إلى جانب ألوان محددة، في رسائل الخطأ والتحذير والحالة، بما يتيح للمستخدمين الذين يعانون من صعوبة في رؤية الألوان تفسير ردود فعل النظام بشكل دقيق.",
+      "requirements": [
+        {
+          "text_en": "Error, warning, and status messages include text or icon indicators in addition to specific colors",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "color blindness",
+        "error indicators",
+        "status messages",
+        "accessibility",
+        "visual indicators"
+      ]
+    },
+    {
+      "code": "1.1.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.1",
+      "category_en": "Accessibility Standards",
+      "description_en": "Clearly provide a \"Skip to Content\" option for customers on every page, shifting focus directly to the main content to minimize unnecessary navigation.",
+      "description_ar": "توفير خيار \"تخطي إلى المحتوى\" بوضوح للمتعاملين في كل صفحة، لينقل التركيز مباشرة إلى المحتوى الرئيسي، بما يحد من التنقل غير الضروري.",
+      "requirements": [
+        {
+          "text_en": "Provide a \"Skip to Content\" link on every page",
+          "monitoring": ""
+        },
+        {
+          "text_en": "The link appears clearly on focus and takes the user directly to the main content",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "skip to content",
+        "navigation",
+        "accessibility",
+        "screen reader",
+        "keyboard focus"
+      ]
+    },
+    {
+      "code": "1.2.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Draft page content concisely focusing on task completion, using clear language and progressive disclosure to minimize distraction. Unnecessary text, decorative media, or secondary links must not obstruct the core workflow, and critical actions must be prominently placed.",
+      "description_ar": "صياغة محتوى الصفحة بأسلوب مختصر مع التركيز على إنجاز المهام، وذلك باستخدام لغة واضحة والإظهار التدريجي للمحتوى لتقليل التشتت، فيما يجب ألا تعيق النصوص غير الضرورية أو الوسائط الزخرفية أو الروابط الثانوية سير العمل الأساسي، وأن تضمن وضع الإجراءات المهمة للخدمة في مكان بارز.",
+      "requirements": [
+        {
+          "text_en": "Draft content concisely focusing on task completion, using clear language and progressive disclosure",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Unnecessary text, decorative media, or secondary links must not obstruct core workflow",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Place critical actions in a prominent location",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "concise content",
+        "progressive disclosure",
+        "task completion",
+        "UI design",
+        "clarity",
+        "workflow"
+      ]
+    },
+    {
+      "code": "1.2.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Ensure real-time input validation is available across all digital forms and fields during data entry, alerting the user immediately of errors, specifying the relevant field, the unfulfilled rule, and how to correct it, before allowing form submission.",
+      "description_ar": "ضمان توفير خاصية التحقق الفوري من المدخلات في كافة النماذج الرقمية وحقولها أثناء إدخال البيانات، بحيث يتم تنبيه المستخدم مباشرة عند وجود خطأ، مع توضيح الحقل المعني والقاعدة غير المستوفاة وطريقة التصحيح، قبل إتاحة تقديم النموذج.",
+      "requirements": [
+        {
+          "text_en": "Input validation during typing (real-time validation)",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Display instant messages specifying field name, violated rule, and correction method",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "real-time validation",
+        "digital forms",
+        "error prevention",
+        "data entry",
+        "correction instructions"
+      ]
+    },
+    {
+      "code": "1.2.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Allow file uploads in digital forms with a minimum capacity of 10 MB, immediately alerting the user if the upload fails or is rejected, and stating the reason for rejection.",
+      "description_ar": "إتاحة رفع الملفات في النماذج الرقمية بحجم أدنى 10 ميجابايت، مع تنبيه المستخدم فوراً عند تعذر رفع الملف أو رفضه، وبيان سبب الرفض.",
+      "requirements": [
+        {
+          "text_en": "Restrict file selection to specific formats with a minimum size limit of 10 MB",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Display a clear warning on screen when a file is rejected",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "file upload",
+        "10MB limit",
+        "upload error",
+        "file formats",
+        "rejection warning"
+      ]
+    },
+    {
+      "code": "1.2.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Ensure name and address fields support full data entry without truncation, displaying a character counter to show remaining characters while typing.",
+      "description_ar": "ضمان دعم حقول الاسم والعنوان إدخالاً كاملاً للبيانات دون اقتطاع، مع عرض عداد يوضح عدد الأحرف المتبقية للمستخدم أثناء الكتابة.",
+      "requirements": [
+        {
+          "text_en": "Enter and save a sufficient number of characters without truncation",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Display remaining character count to the user",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "data entry",
+        "no truncation",
+        "character counter",
+        "name fields",
+        "address fields"
+      ]
+    },
+    {
+      "code": "1.2.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Forms must auto-save user inputs periodically to prevent data loss, without requiring user intervention or session extensions.",
+      "description_ar": "حفظ النماذج لمدخلات المستخدم تلقائياً وبشكل دوري لمنع فقدان البيانات، ومن دون الحاجة إلى تدخل المستخدم او تمديد الجلسة",
+      "requirements": [
+        {
+          "text_en": "Periodic auto-save of inputs",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "auto-save",
+        "data loss prevention",
+        "forms",
+        "session",
+        "periodic save"
+      ]
+    },
+    {
+      "code": "1.2.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Error messages must accurately indicate the field name and violated rule (e.g., 'Mobile number must be 10 digits and start with 05'), and automatically place focus on the invalid field.",
+      "description_ar": "ضرورة إشارة رسائل الخطأ إلى اسم الحقل والقاعدة المخالفة بدقة، مثل: \"يجب أن يتكون رقم الهاتف المحمول من 10 أرقام ويبدأ بـ 05، مع وضع التركيز على الحقل المخالف.",
+      "requirements": [
+        {
+          "text_en": "Error messages accurately indicate field name and violated rule",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Automatically focus on the invalid field",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "error messaging",
+        "field focus",
+        "validation rules",
+        "user feedback",
+        "forms"
+      ]
+    },
+    {
+      "code": "1.2.7",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.2",
+      "category_en": "Form Quality and Validation Features",
+      "description_en": "Provide an alternative human verification method, not reliant on audio or visuals, enabling users of assistive technologies to proceed and complete the action.",
+      "description_ar": "توفير وسيلة تحقق بشرية بديلة، غير معتمدة على الصوت أو الصورة، تمكن مستخدمي التقنيات المساعدة من متابعة الخطوة وإتمام الإجراء.",
+      "requirements": [
+        {
+          "text_en": "Provide a verification option not reliant on audio or visual display",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ability for assistive technology users to complete verification",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "CAPTCHA alternative",
+        "human verification",
+        "assistive technology",
+        "accessibility",
+        "non-visual verification"
+      ]
+    },
+    {
+      "code": "1.3.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "Ensure service journey symmetry between Arabic and English, making features, content, and error-handling mechanisms available at the same level in both languages upon service launch.",
+      "description_ar": "ضمان تماثل رحلة الخدمة بين اللغتين العربية والإنجليزية، بحيث تكون الخصائص والمحتوى وآليات معالجة الأخطاء متاحة بنفس المستوى في كلتا اللغتين عند إطلاق الخدمة",
+      "requirements": [
+        {
+          "text_en": "Availability of features and content in both Arabic and English",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Symmetry in error handling across both languages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "bilingual",
+        "Arabic English",
+        "journey symmetry",
+        "content parity",
+        "error handling"
+      ]
+    },
+    {
+      "code": "1.3.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "Enable customers to switch languages at any step during service application and resume the journey from the same position, retaining all entered data without reloading or losing any data.",
+      "description_ar": "تمكين المتعاملين من تبديل اللغة في أي خطوة خلال التقديم على الخدمة ومتابعة الرحلة من نفس الموضع مع الاحتفاظ بجميع البيانات المدخلة دون الحاجة إلى إعادة التحميل أو فقدان أية بيانات.",
+      "requirements": [
+        {
+          "text_en": "Ability to switch languages at any step within the service journey",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Retaining entered data and current position after switching languages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "language switch",
+        "data retention",
+        "seamless transition",
+        "bilingual support",
+        "user journey"
+      ]
+    },
+    {
+      "code": "1.3.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "Arabic shall be the default language for pages targeting UAE customers, providing a permanent and visible option to switch to English in the page header, unless the customer specifies a different default language.",
+      "description_ar": "تكون اللغة العربية هي اللغة الافتراضية للصفحات الموجهة لمتعاملي دولة الإمارات، مع إتاحة خيار دائم ومرئي للتبديل إلى الإنجليزية في رأس الصفحة، ما لم يحدد المتعامل لغة افتراضية مختلفة.",
+      "requirements": [
+        {
+          "text_en": "Automatically display pages in Arabic for users in the UAE",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide a clear and permanent option in the header to switch languages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "default language",
+        "Arabic",
+        "header language toggle",
+        "UAE users",
+        "bilingual"
+      ]
+    },
+    {
+      "code": "1.3.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "Ensure all transaction-related notifications are sent in the language registered in the customer's profile, including a link to modify language preferences.",
+      "description_ar": "ضمان إرسال جميع الإشعارات الخاصة بالمعاملات باللغة المسجلة في ملف المتعامل مع تضمين رابط يتيح تعديل تفضيلات اللغة.",
+      "requirements": [
+        {
+          "text_en": "Send transaction notifications in the language registered in the customer's profile",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include a link to edit language preferences in every notification",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "notifications",
+        "preferred language",
+        "customer profile",
+        "language settings",
+        "communications"
+      ]
+    },
+    {
+      "code": "1.3.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "All public templates must undergo a human linguistic review to ensure language accuracy and stylistic appropriateness prior to publishing, and upon every update.",
+      "description_ar": "خضوع جميع القوالب العامة لمراجعة لغوية بشرية للتأكد من دقة اللغة وملائمة الأسلوب قبل النشر، وعند كل تحديث.",
+      "requirements": [
+        {
+          "text_en": "Human linguistic review for all public templates before publishing",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Linguistic review upon every template update",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "linguistic review",
+        "templates",
+        "accuracy",
+        "human review",
+        "content updates"
+      ]
+    },
+    {
+      "code": "1.3.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.3",
+      "category_en": "Language Consistency in User Journey",
+      "description_en": "Ensure text symmetry in Arabic and English across all service delivery channels, updating them simultaneously when any changes are approved.",
+      "description_ar": "ضمان تماثل النصوص في اللغتين العربية والإنجليزية عبر كافة قنوات تقديم الخدمة، وتحديثهما بشكل متزامن عند اعتماد أية تغييرات.",
+      "requirements": [
+        {
+          "text_en": "Text symmetry in Arabic and English across service channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Simultaneous update of texts upon change approval",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "text symmetry",
+        "simultaneous update",
+        "omnichannel consistency",
+        "bilingual content",
+        "version control"
+      ]
+    },
+    {
+      "code": "1.4.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.4",
+      "category_en": "Digital Literacy and Help Content",
+      "description_en": "Ensure explanatory guidelines are available for fields with complex or non-intuitive requirements, clarifying input rules, and providing an example of a valid entry when needed.",
+      "description_ar": "ضمان إتاحة إرشادات توضيحية للحقول ذات المتطلبات المعقدة أو غير البديهية، تبين قواعد الإدخال، مع تقديم مثال لمدخل صحيح عند الحاجة.",
+      "requirements": [
+        {
+          "text_en": "Display contextual help tooltips next to fields with unclear rules",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include an example of a valid entry that passes validation",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "tooltips",
+        "field guidance",
+        "valid examples",
+        "user assistance",
+        "complex inputs"
+      ]
+    },
+    {
+      "code": "1.4.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.4",
+      "category_en": "Digital Literacy and Help Content",
+      "description_en": "Ensure FAQs are reviewed annually, or as needed, based on the most frequent inquiries and analytics results, removing inaccurate answers and adding new ones.",
+      "description_ar": "ضمان مراجعة الأسئلة الشائعة سنوياً، أو عند الحاجة، بناء على أكثر الاستفسارات تكراراً ونتائج التحليلات مع حذف الإجابات غير الدقيقة وإضافة إجابات جديدة.",
+      "requirements": [
+        {
+          "text_en": "Review FAQs annually or as needed",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Update based on most frequent inquiries and analytics results",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Remove inaccurate answers and add new ones",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "FAQ review",
+        "frequent inquiries",
+        "help content",
+        "content accuracy",
+        "analytics"
+      ]
+    },
+    {
+      "code": "1.4.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.4",
+      "category_en": "Digital Literacy and Help Content",
+      "description_en": "Provide visual and written instructional content simultaneously in Arabic and English, as needed, maintaining content symmetry upon update.",
+      "description_ar": "توفير المحتوى الإرشادي المرئي والمكتوب باللغتين العربية والإنجليزية بشكل متزامن، وعند الحاجة، مع الحفاظ على تماثل المحتوى عند التحديث.",
+      "requirements": [
+        {
+          "text_en": "Simultaneous publishing of visual and written instructional content in both languages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Maintaining content symmetry upon update",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "instructional content",
+        "bilingual guides",
+        "simultaneous update",
+        "visual aids",
+        "content parity"
+      ]
+    },
+    {
+      "code": "1.5.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Utilize available data in authenticated government records and connect relevant systems to auto-populate fields, ensuring the 'Once-Only' data request principle and not re-requesting data from the customer.",
+      "description_ar": "استخدام البيانات المتاحة في السجلات الحكومية الموثقة وربط الأنظمة ذات العلاقة لتعبئة الحقول تلقائياً، بما يضمن تطبيق مبدأ طلب البيانات مرة واحدة وعدم إعادة طلب البيانات من المتعامل.",
+      "requirements": [
+        {
+          "text_en": "Auto-populate fields with authenticated data",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Integration with authenticated digital registries",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "auto-populate",
+        "once-only principle",
+        "data integration",
+        "digital registries",
+        "pre-filled fields"
+      ]
+    },
+    {
+      "code": "1.5.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Allow editing of pre-populated data, alongside updating the records and documenting the changes.",
+      "description_ar": "إتاحة تعديل البيانات المعبأة مسبقاً، مع تحديث السجلات وتوثيق التغييرات.",
+      "requirements": [
+        {
+          "text_en": "Allow editing of all pre-populated fields",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Automatic update of data stored in customer profile",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Documenting all changes",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "editable data",
+        "pre-populated fields",
+        "record updates",
+        "change log",
+        "data accuracy"
+      ]
+    },
+    {
+      "code": "1.5.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Document all service steps, eliminate requests for data/documents already available via government systems, and accept documents in digitally auto-processable formats.",
+      "description_ar": "توثيق جميع خطوات الخدمة وإلغاء طلبات البيانات/المستندات المتوفرة عبر الأنظمة الحكومية، وقبول المستندات بصيغ رقمية قابلة للمعالجة الآلية.",
+      "requirements": [
+        {
+          "text_en": "Document all service steps",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Eliminate requests for data/documents available via government systems",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Accept documents in digital auto-processable formats",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "document elimination",
+        "digital formats",
+        "service steps",
+        "automation",
+        "government integration"
+      ]
+    },
+    {
+      "code": "1.5.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Simplify customer journeys to include the minimum possible steps, comparing them annually with benchmarks to ensure continuous improvement and reduce customer effort.",
+      "description_ar": "تبسيط رحلات المتعامل لتشمل الحد الأدنى من الخطوات الممكنة، ومقارنتها سنوياً بالمعايير المرجعية لضمان استمرار التحسين وتقليل الجهد على المتعامل.",
+      "requirements": [
+        {
+          "text_en": "Simplify journeys to the minimum number of steps",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Annual comparison with reference benchmarks",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "journey simplification",
+        "minimum steps",
+        "benchmarks",
+        "continuous improvement",
+        "customer effort reduction"
+      ]
+    },
+    {
+      "code": "1.5.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Issue a unified reference number for the case from the first step, and use it throughout the customer's journey and across all channels to enable continuous tracking of the request status.",
+      "description_ar": "إصدار رقم مرجعي موحد للحالة من الخطوة الأولى، واستخدامه طوال رحلة المتعامل وعبر جميع القنوات لتمكين المتعامل من تتبع حالة طلبه بشكل مستمر",
+      "requirements": [
+        {
+          "text_en": "Issue a unified reference number from the first step",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Use the same reference number throughout the customer journey across all channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "reference number",
+        "tracking",
+        "omnichannel",
+        "status tracking",
+        "unified identifier"
+      ]
+    },
+    {
+      "code": "1.5.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.5",
+      "category_en": "Simplifying Customer Journey and Information Requests",
+      "description_en": "Name services with clear and simplified names that reflect the customer's need and the purpose of the service, enabling the customer to find the service easily.",
+      "description_ar": "تسمى الخدمات بمسميات واضحة ومبسطة تعكس احتياج المتعامل والغرض من الخدمة، بحيث يتمكن المتعامل من إيجاد الخدمة بسهولة.",
+      "requirements": [
+        {
+          "text_en": "Name services with clear names reflecting customer needs",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "service naming",
+        "clarity",
+        "findability",
+        "customer needs",
+        "service discovery"
+      ]
+    },
+    {
+      "code": "1.6.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Provide details of applicable fees, showing the total value before payment confirmation, and consolidate all payment procedures into a single step, preventing fragmented or repeated payment requests in a single customer journey.",
+      "description_ar": "توفير تفاصيل الرسوم المستحقة، مع إظهار القيمة الإجمالية قبل تأكيد الدفع، ودمج جميع إجراءات الدفع ضمن خطوة واحدة، بما يمنع تجزئة عملية الدفع أو تكرار طلبها خلال رحلة المتعامل الواحدة.",
+      "requirements": [
+        {
+          "text_en": "Detailed fee breakdown with final total displayed before confirmation",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Consolidate all payment procedures into a single step",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fee transparency",
+        "single-step payment",
+        "total cost",
+        "payment integration",
+        "payment fragmentation"
+      ]
+    },
+    {
+      "code": "1.6.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Enable the UAE payment system \"UAE Pay\" as one of the available payment options for customers across all services.",
+      "description_ar": "إتاحة نظام الدفع سداد الإمارات \"UAE Pay\" كأحد خيارات الدفع المتوفرة للمتعاملين في كافة الخدمات",
+      "requirements": [
+        {
+          "text_en": "Enable \"UAE Pay\" system as a payment option",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "UAE Pay",
+        "payment methods",
+        "checkout options",
+        "digital payment",
+        "billing"
+      ]
+    },
+    {
+      "code": "1.6.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Receipts must include the transaction number, date, payment method, fee details, and service reference number, and be sent to the customer via their chosen channel, such as email, SMS, or approved messaging apps.",
+      "description_ar": "يجب أن تتضمن الإيصالات رقم المعاملة وتاريخها وطريقة الدفع وتفاصيل الرسوم والرقم المرجعي للخدمة، وأن ترسل للمتعامل عبر القناة التي يختارها، مثل البريد الإلكتروني أو الرسائل النصية أو تطبيقات المراسلة المعتمدة.",
+      "requirements": [
+        {
+          "text_en": "Receipt includes transaction number, date, payment method, fee details, and reference number",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Send receipt via the customer's preferred channel (Email / SMS / WhatsApp)",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "receipt details",
+        "payment confirmation",
+        "preferred channel",
+        "transaction number",
+        "omnichannel delivery"
+      ]
+    },
+    {
+      "code": "1.6.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Ensure a clear link to the refund policy tied to the receipt exists on the payment page, explaining the rules, requirements, timeframe, and procedures for submitting a refund request.",
+      "description_ar": "ضمان وجود رابط واضح لسياسة استرداد المبالغ المدفوعة المرتبطة بالإيصال على صفحة الدفع، بما يوضح القواعد والمتطلبات والمدة الزمنية وإجراءات تقديم طلب الاسترداد",
+      "requirements": [
+        {
+          "text_en": "Presence of a refund policy link on the payment page",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Policy includes rules, requirements, timeframe, and request procedures",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "refund policy",
+        "payment page",
+        "financial transparency",
+        "refund procedure",
+        "terms and conditions"
+      ]
+    },
+    {
+      "code": "1.6.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Make the receipt available for download within the customer profile in less than 24 hours of transaction completion, ensuring accessibility and retention for future reference at any time.",
+      "description_ar": "إتاحة الإيصال للتحميل ضمن ملف المتعامل خلال أقل من 24 ساعة من إتمام المعاملة، مع ضمان إمكانية الوصول إليه والاحتفاظ به للرجوع إليه في أي وقت مستقبلا.",
+      "requirements": [
+        {
+          "text_en": "Make receipt available for download in less than 24 hours post-transaction",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Retain the receipt to ensure future access",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "receipt download",
+        "customer profile",
+        "record retention",
+        "historical access",
+        "document retrieval"
+      ]
+    },
+    {
+      "code": "1.6.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.6",
+      "category_en": "Clarity of Fees, Payment, and Receipts",
+      "description_en": "Provide all payment receipts in both Arabic and English with symmetrical content.",
+      "description_ar": "توفير جميع إيصالات الدفع باللغتين العربية والإنجليزية بمحتوى متماثل",
+      "requirements": [
+        {
+          "text_en": "Provide payment receipts",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Content symmetry between both languages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "bilingual receipts",
+        "Arabic English",
+        "content symmetry",
+        "financial records",
+        "invoicing"
+      ]
+    },
+    {
+      "code": "1.7.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Provide direct support services, such as live chat or callback, within the same customer journey, without redirecting the customer to another channel.",
+      "description_ar": "إتاحة خدمات الدعم المباشر، مثل المحادثة الفورية أو إعادة الاتصال، ضمن رحلة المتعامل نفسها، دون إعادة توجيه المتعامل إلى قناة أخرى.",
+      "requirements": [
+        {
+          "text_en": "Enable direct support (live chat / callback) within the customer journey",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Avoid redirecting the customer to an external channel",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "live chat",
+        "callback",
+        "in-channel support",
+        "journey continuity",
+        "customer assistance"
+      ]
+    },
+    {
+      "code": "1.7.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Handle all customer complaints and feedback within the same communication channel (website, smart app, physical service centers, call centers). Or escalate internally without transferring the customer to external entities, using the same case number.",
+      "description_ar": "معالجة جميع شكاوى وملاحظات المتعاملين ضمن نفس قناة التواصل الموقع الإلكتروني، التطبيق الذكي، مراكز الخدمة الحضورية، مراكز الاتصال). أو تصعيدها داخلياً دون تحويل المتعامل إلى جهات خارجية، واستخدام نفس رقم الحالة.",
+      "requirements": [
+        {
+          "text_en": "Handle complaints/feedback within the same channel or internal escalation",
+          "monitoring": ""
+        },
+        {
+          "text_en": "No transferring customer to external entities",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Link escalation to the case number",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "complaint resolution",
+        "internal escalation",
+        "same channel",
+        "case number tracking",
+        "feedback handling"
+      ]
+    },
+    {
+      "code": "1.7.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Provide direct digital support services 24/7 whenever needed, clearly displaying service status and expected response time.",
+      "description_ar": "إتاحة خدمات الدعم الرقمي المباشر على مدار الساعة طوال أيام الأسبوع متى ما دعت الحاجة، مع عرض واضح لحالة الخدمة ووقت الاستجابة المتوقع.",
+      "requirements": [
+        {
+          "text_en": "Provide direct digital support 24/7",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Clear display of service status and expected response time",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "24/7 support",
+        "response time",
+        "service status",
+        "digital support",
+        "availability"
+      ]
+    },
+    {
+      "code": "1.7.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Provide direct support in the customer's preferred language per their profile, with the ability to switch language on demand without needing to restart steps.",
+      "description_ar": "تقديم الدعم المباشر باللغة المفضلة للمتعامل حسب الملف الشخصي، مع إمكانية تبديل اللغة عند الطلب دون الحاجة إلى إعادة الخطوات.",
+      "requirements": [
+        {
+          "text_en": "Provide support in the customer's preferred profile language",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ability to switch language without restarting steps",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "multilingual support",
+        "preferred language",
+        "language switch",
+        "profile settings",
+        "seamless support"
+      ]
+    },
+    {
+      "code": "1.7.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Provide immediate and direct support to customers during form filling and document uploading to resolve any operational challenges hindering process completion.",
+      "description_ar": "توفير دعم مباشر وفوري للمتعاملين خلال تعبئة النماذج ورفع المستندات المعالجة أي تحديات تشغيلية تعيق استكمال الإجراءات.",
+      "requirements": [
+        {
+          "text_en": "Assist with form filling, document uploads, and overcoming challenges across all journey stages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Enable the customer to resume steps after support",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "immediate support",
+        "form assistance",
+        "upload issues",
+        "troubleshooting",
+        "process completion"
+      ]
+    },
+    {
+      "code": "1.7.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "Ensure all direct support cases receive a unified reference number, are processed according to approved KPIs (e.g., Urgent: 24h, Normal: 5 days, Complex: 15 days), and customers receive proactive updates until case closure.",
+      "description_ar": "ضمان حصول جميع حالات الدعم المباشر على رقم مرجعي موحد، ومعالجتها وفقاً لمؤشرات الأداء المعتمدة (مثل: عاجل: 24 ساعة، عادي: 5 أيام معقد: 15 يوماً)، وتزويد المتعاملين بتحديثات استباقية حتى إغلاق الحالة.",
+      "requirements": [
+        {
+          "text_en": "Issue a unified reference number for each support case",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Processing according to approved KPIs",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide customers with proactive updates until closure",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "reference number",
+        "support KPIs",
+        "resolution timeframe",
+        "proactive updates",
+        "case tracking"
+      ]
+    },
+    {
+      "code": "1.7.7",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.7",
+      "category_en": "Instant Digital Support within Service Channel",
+      "description_en": "If live chat fails to provide an appropriate response, the case is automatically escalated to a dedicated employee while retaining the full conversation context, preventing the customer from needing to re-explain.",
+      "description_ar": "في حال عجز المحادثة الفورية عن تقديم رد مناسب، تصعد الحالة تلقائياً إلى موظف مختص مع الاحتفاظ بسياق المحادثة كاملاً دون الحاجة إلى إعادة الشرح من قبل المتعامل.",
+      "requirements": [
+        {
+          "text_en": "Automatically escalate to a specialist while retaining chat context",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "auto-escalation",
+        "chat context",
+        "human handover",
+        "live chat",
+        "seamless transfer"
+      ]
+    },
+    {
+      "code": "1.8.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Ensure services operate efficiently on low bandwidth and slow connections by compressing media and reducing heavy scripts, enabling customers with slow connections to complete steps or services.",
+      "description_ar": "ضمان عمل الخدمات بكفاءة على النطاق الترددي المنخفض وسرعات الاتصال البطيئة، من خلال ضغط الوسائط وتقليل النصوص البرمجية الثقيلة. التمكين المتعاملين ذوي الاتصال البطيء من إتمام الخطوات أو الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Compress media to improve performance on slow connections",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Reduce heavy programming scripts",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ability to complete the service on a slow connection",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "low bandwidth",
+        "slow connection",
+        "media compression",
+        "page load optimization",
+        "accessibility"
+      ]
+    },
+    {
+      "code": "1.8.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Optimize core service pages to ensure fast loading across all devices, with full compliance to the UAE's Digital Design System (DLS) and WCAG 2.2 AA global accessibility standards.",
+      "description_ar": "تحسين صفحات الخدمة الرئيسية لضمان تحميل سريع عبر جميع الأجهزة، مع الامتثال التام لنظام تصميم المواقع الإلكترونية (DLS) لدولة الإمارات والمعايير العالمية لإمكانية الوصول WCAG 2.2 AA",
+      "requirements": [
+        {
+          "text_en": "Optimize main service pages for fast loading",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Comply with the Digital Design System (DLS)",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Comply with WCAG 2.2 AA standards",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fast loading",
+        "DLS compliance",
+        "WCAG 2.2 AA",
+        "page optimization",
+        "cross-device"
+      ]
+    },
+    {
+      "code": "1.8.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Display all forms with a responsive design supporting smart device keyboards based on input types, enabling form completion without needing horizontal scrolling.",
+      "description_ar": "عرض جميع النماذج بتصميم سلس، يدعم لوحات مفاتيح الأجهزة الذكية حسب أنواع المدخلات، مع إتاحة استكمال تعبئة النموذج دون الحاجة إلى التمرير الأفقي.",
+      "requirements": [
+        {
+          "text_en": "Display forms with responsive design across all devices",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Support appropriate smart keyboards per input type",
+          "monitoring": ""
+        },
+        {
+          "text_en": "No need for horizontal scrolling",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "responsive design",
+        "mobile keyboards",
+        "no horizontal scrolling",
+        "cross-device forms",
+        "mobile optimization"
+      ]
+    },
+    {
+      "code": "1.8.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Provide and announce a clear alternative channel, in case of connection failure, such as a call center or physical service center.",
+      "description_ar": "توفير قناة بديلة واضحة ومعلن عنها، في حال تعذر الاتصال، مثل مركز الاتصال أو مركز الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Provide alternative channel upon connection failure",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Clearly announce the alternative channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "alternative channel",
+        "connection failure",
+        "fallback option",
+        "call center",
+        "service center"
+      ]
+    },
+    {
+      "code": "1.8.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Ensure service compatibility with the most widely used browsers in the UAE, across mobile devices, self-service kiosks, and desktop computers.",
+      "description_ar": "توافق الخدمات مع المتصفحات الأكثر استخداماً في الإمارات، عبر الأجهزة المحمولة ونوافذ الخدمة الذاتية وأجهزة الحاسوب.",
+      "requirements": [
+        {
+          "text_en": "Compatibility with the most used browsers in the UAE",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Compatibility across different devices (mobile/desktop)",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "browser compatibility",
+        "cross-platform",
+        "device agnostic",
+        "web browsers",
+        "mobile and desktop"
+      ]
+    },
+    {
+      "code": "1.8.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.8",
+      "category_en": "Channel Effectiveness in Low Connectivity Environments",
+      "description_en": "Ensure requests in progress are securely saved and retrievable at any time, notifying customers in advance before any deletion. Drafts can be deleted with customer consent or after the announced retention period expires.",
+      "description_ar": "ضمان حفظ الطلبات قيد الإنجاز بشكل آمن وإتاحة استرجاعها في أي وقت، وإخطار المتعاملين مسبقاً قبل أي حذف، حيث يمكن حذف المسودات بموافقة المتعامل أو بعد انتهاء فترة الاحتفاظ المعلن عنها.",
+      "requirements": [
+        {
+          "text_en": "Securely save requests in progress",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ability to retrieve requests at any time",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Prior notification before any deletion",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "save progress",
+        "secure drafts",
+        "data retrieval",
+        "draft deletion policy",
+        "retention period"
+      ]
+    },
+    {
+      "code": "1.9.1",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Adopt National Design System components and approved spacing rules across all services, replacing any custom interfaces with their corresponding system components.",
+      "description_ar": "اعتماد مكونات نظام التصميم الوطني وقواعد التباعد المعتمدة في جميع الخدمات، واستبدال أي واجهات مخصصة بما يقابلها من مكونات النظام.",
+      "requirements": [
+        {
+          "text_en": "Adopt National Design System components and spacing rules",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "National Design System",
+        "UI components",
+        "spacing rules",
+        "design standardization",
+        "interface replacement"
+      ]
+    },
+    {
+      "code": "1.9.2",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Ensure logos, colors, fonts, and content writing style match approved brand guidelines across all service channels, including websites, mobile apps, print materials, and physical signage.",
+      "description_ar": "ضمان توافق الشعارات والألوان والخطوط وأسلوب كتابة المحتوى مع إرشادات الهوية المعتمدة عبر جميع قنوات الخدمة، بما يشمل المواقع الإلكترونية وتطبيقات الهاتف المحمول والمطبوعات واللافتات في مراكز الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Compliance with brand guidelines (logos, colors, fonts, style)",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Commitment across all channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "brand guidelines",
+        "visual identity",
+        "omnichannel branding",
+        "fonts and colors",
+        "unified style"
+      ]
+    },
+    {
+      "code": "1.9.3",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Content must adhere to the approved style guide standards, including content principles, tone of voice, writing style, grammar rules, approved terminology, and UI microcopy.",
+      "description_ar": "التزام المحتوى بمعايير دليل الأسلوب المعتمد، بما يشمل مبادئ المحتوى ونبرة وأسلوب الكتابة والقواعد اللغوية والمصطلحات المعتمدة ونصوص واجهة المستخدم (النصوص القصيرة).",
+      "requirements": [
+        {
+          "text_en": "Adhere to the approved style guide standards",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "style guide",
+        "tone of voice",
+        "microcopy",
+        "terminology",
+        "content principles"
+      ]
+    },
+    {
+      "code": "1.9.4",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Page and document templates must adhere to the National Design System and corporate identity guidelines, and be updated upon any modification to approved standards or content.",
+      "description_ar": "التزام قوالب الصفحات والمستندات بنظام التصميم الوطني وإرشادات الهوية المؤسسية، وتحديثها عند أي تعديل على المعايير المعتمدة أو المحتوى.",
+      "requirements": [
+        {
+          "text_en": "Templates adhere to National Design System and brand guidelines",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Update templates upon any standard modifications",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "templates",
+        "design system",
+        "brand updates",
+        "document standards",
+        "layout consistency"
+      ]
+    },
+    {
+      "code": "1.9.5",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Teams must ensure reuse of approved components rather than creating new ones, documenting any exceptions and getting them approved by design governance officials.",
+      "description_ar": "حرص فرق العمل على إعادة استخدام المكونات المعتمدة بدلاً من إنشاء مكونات جديدة، مع توثيق أية استثناءات واعتمادها من قبل مسؤولي حوكمة التصميم.",
+      "requirements": [
+        {
+          "text_en": "Reuse approved components instead of creating new ones",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Document and approve any exceptions through design governance",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "component reuse",
+        "design governance",
+        "exceptions approval",
+        "standardization",
+        "efficiency"
+      ]
+    },
+    {
+      "code": "1.9.6",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Entities must conduct periodic editorial reviews at least quarterly to verify continuous compliance with approved style, terminology, and accessibility standards, addressing any inconsistencies found.",
+      "description_ar": "التزام الجهات بإجراء مراجعات تحريرية دورية ربع سنوية على الأقل للتحقق من الامتثال المستمر لأسلوب ومصطلحات ومعايير سهولة الوصول المعتمدة، ومعالجة آية تناقضات يتم رصدها.",
+      "requirements": [
+        {
+          "text_en": "Conduct editorial reviews at least quarterly",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Verify compliance with style, terminology, and accessibility standards",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Address any inconsistencies",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "editorial review",
+        "quarterly audit",
+        "content consistency",
+        "accessibility verification",
+        "continuous compliance"
+      ]
+    },
+    {
+      "code": "1.9.7",
+      "pillar_id": 1,
+      "pillar_name_en": "Simpler, Easier, Faster Experience",
+      "category_number": "1.9",
+      "category_en": "Content Consistency and National Design System",
+      "description_en": "Commitment of all digital interfaces, including pages, forms, and interactive elements, to the approved design language system to ensure visual and behavioral symmetry across services, per accessibility and usability guidelines.",
+      "description_ar": "التزام جميع الواجهات الرقمية، بما يشمل الصفحات والنماذج وعناصر التفاعل، بنظام لغة التصميم المعتمد لضمان التماثل البصري والسلوكي عبر الخدمات، وذلك وفقاً لإرشادات سهولة الوصول والاستخدام.",
+      "requirements": [
+        {
+          "text_en": "Commitment of all digital interfaces to the design language system",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Achieve visual and behavioral symmetry across services",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Compliance with accessibility and usability guidelines",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "design language system",
+        "visual symmetry",
+        "behavioral consistency",
+        "usability guidelines",
+        "digital interfaces"
+      ]
+    },
+    {
+      "code": "2.1.1",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Entities must publish the approved completion time for each service and commit to completing the service within the specified timeframe in all cases without exception.",
+      "description_ar": "نشر الجهات لمدة الإنجاز المعتمدة لكل خدمة، والالتزام بإنجاز الخدمة ضمن المدة المحددة في جميع الحالات ودون استثناء.",
+      "requirements": [
+        {
+          "text_en": "Publish the approved completion time for each service",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Complete the service within the specified timeframe in all cases",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "SLA publication",
+        "completion time",
+        "service deadline",
+        "on-time delivery",
+        "accountability"
+      ]
+    },
+    {
+      "code": "2.1.2",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Clearly display all required fees, conditions, and documents to the customer before starting the service, without any additional requirements requested at later stages.",
+      "description_ar": "عرض جميع الرسوم والشروط والمستندات المطلوبة بوضوح للمتعامل قبل بدء الخدمة، دون أية متطلبات إضافية في مراحل لاحقة.",
+      "requirements": [
+        {
+          "text_en": "Display all required fees, conditions, and documents prior to service start",
+          "monitoring": ""
+        },
+        {
+          "text_en": "No additional requirements requested later",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "transparency",
+        "upfront requirements",
+        "no hidden fees",
+        "prerequisites",
+        "customer clarity"
+      ]
+    },
+    {
+      "code": "2.1.3",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Request all information and documents upfront within a single application, eliminate paper document requests, and submit documents digitally via the service channel or integrated systems.",
+      "description_ar": "طلب جميع المعلومات والمستندات مقدماً ضمن طلب واحد، عدم طلب مستندات ورقية، وتقديم المستندات رقمياً عبر قناة الخدمة أو الأنظمة المتكاملة.",
+      "requirements": [
+        {
+          "text_en": "Request all information and documents upfront in one request",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Do not request paper documents",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Submit documents digitally via the service channel or integrated systems",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "digital documents",
+        "paperless",
+        "upfront requests",
+        "single application",
+        "system integration"
+      ]
+    },
+    {
+      "code": "2.1.4",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Provide services consistently across all channels, ensuring that steps, outcomes, and fees match across all service and support channels.",
+      "description_ar": "تقديم الخدمات بشكل متسق عبر جميع القنوات، بحيث تتطابق الخطوات والنتائج والرسوم في جميع قنوات الخدمة والدعم.",
+      "requirements": [
+        {
+          "text_en": "Matching steps across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Matching outcomes and fees across all channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "omnichannel consistency",
+        "unified service paths",
+        "fee parity",
+        "service parity",
+        "customer support"
+      ]
+    },
+    {
+      "code": "2.1.5",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Issue a receipt or confirmation for every completed service, clarifying the decision, result, and fees.",
+      "description_ar": "إصدار إيصال أو تأكيد لكل خدمة مكتملة، يوضح القرار والنتيجة والرسوم.",
+      "requirements": [
+        {
+          "text_en": "Issue a receipt or confirmation for every completed service",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Clarify the decision, result, and fees within the receipt/confirmation",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "service confirmation",
+        "receipt issuance",
+        "transaction result",
+        "fee transparency",
+        "service completion"
+      ]
+    },
+    {
+      "code": "2.1.6",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Notify the customer immediately of any deviation or change from announced service standards (in time, cost, or requirements), explaining the reasons, updated timeframe, and available escalation options, and link this to the 'Khadamati' system.",
+      "description_ar": "إبلاغ المتعامل فوراً بأي اختلاف أو تغيير عن معايير الخدمة المعلنة في الوقت أو التكلفة أو المتطلبات)، مع توضيح الأسباب والإطار الزمني المحدث وخيارات التصعيد المتاحة، وربطها مع نظام خدماتي.",
+      "requirements": [
+        {
+          "text_en": "Immediate notification of any deviation or change from announced service standards",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Explain reasons, updated timeframe, and escalation options",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "deviation notification",
+        "proactive updates",
+        "service change",
+        "escalation options",
+        "khadamati integration"
+      ]
+    },
+    {
+      "code": "2.1.7",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Service centers continually provide a clean, safe, and comfortable operational environment, including waiting facilities, parking, lighting, and climate control, ensuring a comfortable experience for customers.",
+      "description_ar": "توفر مراكز الخدمة بيئة تشغيلية نظيفة وآمنة ومريحة بشكل مستمر، تشمل مرافق الانتظار، ومواقف السيارات، والإضاءة، وتهيئة درجات الحرارة بما يضمن تجربة مريحة للمتعاملين.",
+      "requirements": [
+        {
+          "text_en": "Provide a clean, safe, and comfortable environment",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide parking, seating, lighting, and adequate air conditioning",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "service centers",
+        "physical environment",
+        "customer comfort",
+        "facilities management",
+        "parking and seating"
+      ]
+    },
+    {
+      "code": "2.1.8",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Ensure full accessibility for people of determination and senior citizens to all service center facilities, including ramps, signage, appropriate restrooms, and priority service areas, in accordance with the National Policy for Empowering People of Determination.",
+      "description_ar": "ضمان إمكانية الوصول كاملة لأصحاب الهمم وكبار المواطنين لجميع مرافق مراكز الخدمات، تشمل المنحدرات واللافتات الإرشادية ودورات المياه المناسبة ومناطق الخدمة ذات الأولوية، وفقاً للسياسة الوطنية لتمكين أصحاب الهمم.",
+      "requirements": [
+        {
+          "text_en": "Ensure full access for people of determination and senior citizens",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Compliance with national accessibility requirements",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "accessibility",
+        "people of determination",
+        "senior citizens",
+        "inclusive facilities",
+        "priority service"
+      ]
+    },
+    {
+      "code": "2.1.9",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Design working hours based on customer demand patterns, including at least one extended period during peak times (shifts or seasons). Working hours must also be reviewed annually and published in advance across all channels.",
+      "description_ar": "تصميم ساعات العمل وفقاً لأنماط طلب المتعاملين، بما يشمل فترة ممتدة واحدة على الأقل خلال أوقات الذروة (الورديات أو المواسم). كما يجب مراجعة ساعات العمل سنوياً ونشرها مسبقاً عبر جميع القنوات.",
+      "requirements": [
+        {
+          "text_en": "Design working hours according to customer demand patterns",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide at least one extended period during peak times",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Annual review and prior publication across all channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "working hours",
+        "peak demand",
+        "extended shifts",
+        "service availability",
+        "annual review"
+      ]
+    },
+    {
+      "code": "2.1.10",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Register all government services and channels in the national 'Khadamati' database, assigning an official catalog code to each service, and use the service name and channel identifiers exactly as approved in 'Khadamati' consistently across all platforms, interfaces, and communication channels without modification.",
+      "description_ar": "تسجيل جميع الخدمات الحكومية وقنواتها في قاعدة بيانات «خدماتي» الوطنية مع إسناد رمز كتالوج رسمي لكل خدمة، واستخدام اسم الخدمة ومعرفات القنوات كما هي معتمدة في «خدماتي» بشكل متسق عبر جميع المنصات والواجهات وقنوات الاتصال دون تعديل.",
+      "requirements": [
+        {
+          "text_en": "Register all government services and channels in the 'Khadamati' database",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Assign an official catalog code to each service",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Use the name and identifiers published in 'Khadamati' consistently without modification",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "Khadamati registry",
+        "service catalog code",
+        "naming consistency",
+        "government database",
+        "service identifiers"
+      ]
+    },
+    {
+      "code": "2.1.11",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.1",
+      "category_en": "Service Performance Monitoring",
+      "description_en": "Periodically measure the effectiveness of AI tools used in services through clear KPIs, taking immediate corrective actions upon detecting a drop in performance level or response accuracy.",
+      "description_ar": "تقاس فعالية أدوات الذكاء الاصطناعي المستخدمة في الخدمات بشكل دوري من خلال مؤشرات أداء واضحة، مع اتخاذ إجراءات تصحيحية فورية عند انخفاض مستوى الأداء أو دقة الاستجابة.",
+      "requirements": [
+        {
+          "text_en": "Periodically measure AI tools' performance and take corrective actions upon performance drop",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "AI tools",
+        "performance measurement",
+        "KPIs",
+        "artificial intelligence",
+        "corrective actions"
+      ]
+    },
+    {
+      "code": "2.2.1",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.2",
+      "category_en": "Feedback Collection Mechanisms",
+      "description_en": "Provide a specialized tool to collect customer feedback after service completion across all channels and services to measure satisfaction levels and customer effort, ensuring integration with 'Customer Pulse'.",
+      "description_ar": "توفير أداة مختصة لجمع ملاحظات المتعاملين بعد إتمام الخدمة عبر جميع القنوات والخدمات لقياس مستوى الرضا وجهد المتعامل، على أن الربط مع «نبض المتعامل».",
+      "requirements": [
+        {
+          "text_en": "Provide a specialized tool for collecting feedback post-completion across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Measure satisfaction level and exerted effort",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Integrate with the 'Customer Pulse' system",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "feedback collection",
+        "Customer Pulse",
+        "satisfaction score",
+        "customer effort",
+        "post-service survey"
+      ]
+    },
+    {
+      "code": "2.2.2",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.2",
+      "category_en": "Feedback Collection Mechanisms",
+      "description_en": "Entities must commit to collecting feedback consistently across all channels, and utilizing the approved Service Observatory for centralized analysis.",
+      "description_ar": "التزام الجهات يجمع الملاحظات بشكل متسق عبر جميع القنوات، والاستفادة من مرصد الخدمات المعتمد للتحليل المركزي.",
+      "requirements": [
+        {
+          "text_en": "Collect feedback consistently across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Utilize the approved Service Observatory for central analysis",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "feedback consistency",
+        "Service Observatory",
+        "centralized analysis",
+        "customer insights",
+        "omnichannel feedback"
+      ]
+    },
+    {
+      "code": "2.2.3",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.2",
+      "category_en": "Feedback Collection Mechanisms",
+      "description_en": "Ensure all customer support interactions provide accurate, timely, and professional responses across all channels, tracking and reporting performance regularly. Additionally, manage the first point of contact through trained and authorized employees to guarantee correct guidance for customers from the start.",
+      "description_ar": "ضمان تقديم جميع تفاعلات دعم المتعاملين استجابات دقيقة، وفي الوقت المناسب، وبأسلوب مهني عبر جميع القنوات، مع تتبع الأداء والإبلاغ عنه بانتظام. بالإضافة إلى إدارة نقطة الاتصال الأولى بواسطة موظفين مدربين ومخوّلين لضمان تقديم التوجيه الصحيح للمتعاملين منذ البداية.",
+      "requirements": [
+        {
+          "text_en": "Provide accurate, professional, and timely responses across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Track and report performance",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Manage first point of contact by trained and authorized staff",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "customer support",
+        "first point of contact",
+        "professionalism",
+        "timely response",
+        "interaction quality"
+      ]
+    },
+    {
+      "code": "2.2.4",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.2",
+      "category_en": "Feedback Collection Mechanisms",
+      "description_en": "Ensure accuracy, clarity, and consistency of all service-related information across all channels, regularly updating platforms to guarantee customers always receive current and reliable guidance.",
+      "description_ar": "الحرص على دقة ووضوح واتساق جميع المعلومات المتعلقة بالخدمة عبر جميع القنوات، وتحديث المنصات بانتظام، وذلك لضمان حصول المتعاملين على إرشادات حديثة وموثوقة دائماً.",
+      "requirements": [
+        {
+          "text_en": "Accuracy, clarity, and consistency of information across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Regularly update platforms with updated and approved content",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "information accuracy",
+        "content clarity",
+        "regular updates",
+        "reliable guidance",
+        "channel consistency"
+      ]
+    },
+    {
+      "code": "2.2.5",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.2",
+      "category_en": "Feedback Collection Mechanisms",
+      "description_en": "Review customer feedback and take necessary actions within the approved time, documenting all actions and identifying the owner responsible for their execution.",
+      "description_ar": "مراجعة ملاحظات المتعاملين واتخاذ الإجراءات اللازمة بشأنها في الوقت المعتمد، مع توثيق جميع الإجراءات وتحديد المالك المسؤول عن تنفيذها.",
+      "requirements": [
+        {
+          "text_en": "Review feedback and take action in a timely manner",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Document actions and assign responsibility",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "feedback review",
+        "action planning",
+        "accountability",
+        "issue resolution",
+        "customer comments"
+      ]
+    },
+    {
+      "code": "2.3.1",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.3",
+      "category_en": "Satisfaction Measurement and Action Taking",
+      "description_en": "Prepare an improvement plan for any service that records low satisfaction scores, identifying those responsible for execution and the timeframes for corrective actions.",
+      "description_ar": "إعداد خطة تحسين لأية خدمة تسجل نتائج رضا منخفضة، مع تحديد المسؤولين عن التنفيذ والمراحل الزمنية للإجراءات التصحيحية.",
+      "requirements": [
+        {
+          "text_en": "Prepare an improvement plan for services with low satisfaction scores",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Identify responsible persons and timeframes for corrective actions",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "improvement plan",
+        "low satisfaction",
+        "corrective actions",
+        "action timeline",
+        "service enhancement"
+      ]
+    },
+    {
+      "code": "2.3.2",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.3",
+      "category_en": "Satisfaction Measurement and Action Taking",
+      "description_en": "Entities must rely on the UAE Government Services Observatory and central questionnaires issued by the government monitoring team, conduct only activities appropriate for the entity (customer councils, UX testing, co-design), and ensure the credibility, comprehensiveness, and clear methodology of the reports.",
+      "description_ar": "ضرورة اعتماد الجهات على مرصد الخدمات الحكومية لدولة الإمارات والاستبيانات المركزية الصادرة عن فريق الرصد الحكومي، والقيام بالأنشطة المناسبة للجهة فقط (مجالس المتعاملين، اختبارات تجربة المستخدم، التصميم المشترك)، وضمان مصداقية التقارير وشموليتها ووضوح منهجيتها.",
+      "requirements": [
+        {
+          "text_en": "Rely on the Government Services Observatory and central questionnaires",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Conduct only entity-appropriate activities (councils, tests, co-design)",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ensure credibility, comprehensiveness, and clear methodology of reports",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "observatory",
+        "central questionnaires",
+        "UX testing",
+        "co-design",
+        "report credibility"
+      ]
+    },
+    {
+      "code": "2.3.3",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.3",
+      "category_en": "Satisfaction Measurement and Action Taking",
+      "description_en": "Analyze satisfaction results by each service channel to identify and address complaints and challenges specific to digital services, call centers, or in-person services. The entity is committed to aggregating results and preparing reports to ensure comparability among entities.",
+      "description_ar": "تحليل نتائج الرضا حسب كل قناة خدمة، وذلك لتحديد ومعالجة الشكاوى والتحديات الخاصة بالخدمات الرقمية أو مراكز الاتصال أو الخدمات الحضورية. والتزام الجهة بمسؤولية تجميع النتائج وإعداد التقارير لضمان إمكانية المقارنة بين الجهات.",
+      "requirements": [
+        {
+          "text_en": "Analyze satisfaction results by each channel",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Identify and address channel-specific complaints and challenges",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Aggregate and prepare reports by the concerned central entity in the Prime Minister's Office",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "channel analysis",
+        "comparative reports",
+        "satisfaction analysis",
+        "channel-specific challenges",
+        "aggregation"
+      ]
+    },
+    {
+      "code": "2.3.4",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.3",
+      "category_en": "Satisfaction Measurement and Action Taking",
+      "description_en": "Periodic review of customer satisfaction results by the government entity's leadership, ensuring the documentation of all decisions and actions taken, and monitoring their execution.",
+      "description_ar": "مراجعة قيادة الجهة الحكومية لنتائج رضا المتعاملين بشكل دوري، والتأكد من توثيق جميع القرارات والإجراءات المتخذة ومتابعة تنفيذها.",
+      "requirements": [
+        {
+          "text_en": "Leadership review of customer satisfaction results",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Document decisions and actions and track their execution",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "leadership review",
+        "decision documentation",
+        "action tracking",
+        "executive oversight",
+        "satisfaction review"
+      ]
+    },
+    {
+      "code": "2.4.1",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Ensure the customer receives a reference number and an instant acknowledgment of complaint receipt via the channel chosen by the customer in their communication preferences.",
+      "description_ar": "ضمان حصول المتعامل على رقم مرجعي وإشعار باستلام الشكوى بشكل لحظي عبر القناة التي اختارها المتعامل في تفضيلات التواصل.",
+      "requirements": [
+        {
+          "text_en": "Issue a reference number and instant acknowledgment of complaint receipt",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Send via the customer's chosen channel",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "complaint acknowledgment",
+        "reference number",
+        "instant notification",
+        "preferred channel",
+        "complaint receipt"
+      ]
+    },
+    {
+      "code": "2.4.2",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Handle all complaints according to approved service level KPIs (e.g., Urgent: 24 hours, Normal: 5 days, Complex: 15 days), while tracking and reporting cases of non-compliance with the specified timeframes.",
+      "description_ar": "معالجة جميع الشكاوى وفقاً لمؤشرات الأداء المعتمدة لمستوى الخدمة (مثال: عاجلة 24 ساعة، عادية: 5 أيام، معقدة 15 يوماً)، مع تتبع حالات عدم الالتزام للمدد المحددة والإبلاغ عنها.",
+      "requirements": [
+        {
+          "text_en": "Handle complaints within specified timeframes based on classification",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Track and report non-compliance with timeframes",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "complaint resolution SLA",
+        "resolution timeframe",
+        "non-compliance tracking",
+        "urgent complaints",
+        "delay reporting"
+      ]
+    },
+    {
+      "code": "2.4.3",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Complaint resolution messages must include a clear explanation of the steps taken, the final result, and the customer's right to appeal or request a review.",
+      "description_ar": "أن تتضمن رسائل حلّ الشكوى شرحاً واضحاً للخطوات المتخذة، والنتيجة النهائية، وحق المتعامل في الاستئناف أو طلب المراجعة.",
+      "requirements": [
+        {
+          "text_en": "Clarify actions taken, result, and the right to appeal/review",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "complaint resolution message",
+        "appeal rights",
+        "transparency",
+        "actions taken",
+        "final result"
+      ]
+    },
+    {
+      "code": "2.4.4",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Escalate unresolved complaints at the first level to a senior manager for review within the specified KPI timeframe, documenting the reasons for escalation and the decisions taken at the higher administrative level.",
+      "description_ar": "تصعيد الشكاوى غير المحلولة على المستوى الأول إلى مدير أول لمراجعتها ضمن الإطار الزمني المحدد لمؤشرات الأداء، مع توثيق أسباب التصعيد والقرارات المتخذة على المستوى الإداري الأعلى.",
+      "requirements": [
+        {
+          "text_en": "Escalate unresolved complaints to a senior manager",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Review within the KPI timeframe",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Document reasons for escalation and decisions taken",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "complaint escalation",
+        "senior manager review",
+        "escalation reasons",
+        "management decision",
+        "resolution delay"
+      ]
+    },
+    {
+      "code": "2.4.5",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Accept complaints and support requests across all service channels (website, smart app, in-person service centers, call centers) and ensure equal processing. Service providers must clearly publish call center numbers, working hours, and alternative contact options (like live chat and email) on their websites, regularly testing channel accessibility and addressing challenges immediately.",
+      "description_ar": "قبول الشكاوي وطلبات الدعم غير جميع قنوات الخدمة (الموقع الإلكتروني، التطبيق الذكي، مراكز الخدمة الحضورية، مراكز الاتصال)، مع ضمان معالجتها بشكل متساو، فيما يلتزم مزودو الخدمة بنشر أرقام مراكز الاتصال وساعات العمل وخيارات التواصل البديلة (مثل المحادثة الفورية والبريد الإلكتروني) بوضوح على مواقعهم الإلكترونية، واختبار سهولة الوصول لهذه القنوات بشكل دوري ومعالجة أية تحديات فوراً.",
+      "requirements": [
+        {
+          "text_en": "Accept complaints across all service channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Equal processing of complaints across all channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Publish contact information clearly on the website",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "omnichannel complaints",
+        "equal processing",
+        "contact information",
+        "support channels",
+        "accessibility testing"
+      ]
+    },
+    {
+      "code": "2.4.6",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "The entity bears responsibility for any fees or fines resulting from an error on its part or its employees', and any amount collected as a result is refunded to the customer without delay.",
+      "description_ar": "تتحمل الجهة مسؤولية أي رسوم أو غرامات نتجت عن خطأ منها أو من موظفيها، ويُعاد للمتعامل أي مبلغ تم تحصيله نتيجة لذلك دون تأخير.",
+      "requirements": [
+        {
+          "text_en": "Do not burden the customer with the cost of entity or employee errors",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Immediate refund of any previously collected amounts",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "error accountability",
+        "fee refund",
+        "unfair fines",
+        "entity responsibility",
+        "immediate reimbursement"
+      ]
+    },
+    {
+      "code": "2.4.7",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.4",
+      "category_en": "Complaint Handling and Resolution",
+      "description_en": "Entities must integrate with the National Customer Relationship Management (NCRM) platform and ensure complaints and suggestions are updated and closed on time.",
+      "description_ar": "على الجهات الربط مع منصة إدارة علاقات المتعاملين الوطنية وضمان تحديث الشكاوى والمقترحات وإغلاقها في الوقت المحدد.",
+      "requirements": [
+        {
+          "text_en": "Integrate with the National CRM platform",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Update and close complaints and suggestions on time",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "NCRM integration",
+        "National CRM",
+        "complaint tracking",
+        "suggestion management",
+        "timely closure"
+      ]
+    },
+    {
+      "code": "2.5.1",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.5",
+      "category_en": "Customer Segmentation",
+      "description_en": "Entities shall base the design of services and experiences on customizing them according to the customer's needs and context, utilizing available data to segment customer categories, ensuring the service is appropriately adapted and accurately directed.",
+      "description_ar": "تعتمد الجهات تصميم الخدمات والتجارب على تخصيصها وفق احتياجات المتعامل وسياقه، مع الاستفادة من البيانات المتاحة لتصنيف فئات المتعاملين وملاءمة الخدمة وتوجيهها بشكل أدق.",
+      "requirements": [
+        {
+          "text_en": "Segment customers into categories based on approved demographic and behavioral traits",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Save the specified category for each customer in their profile",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Use the category in targeting and customization operations",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "customer segmentation",
+        "personalization",
+        "demographics",
+        "behavioral traits",
+        "service targeting"
+      ]
+    },
+    {
+      "code": "2.5.2",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.5",
+      "category_en": "Customer Segmentation",
+      "description_en": "Review customer classifications at least once annually, and adjust them if the data shows substantial shifts in customer behavior or needs.",
+      "description_ar": "مراجعة تصنيفات المتعاملين مرة واحدة على الأقل سنوياً، وتعديلها في حال أظهرت البيانات تحولات جوهرية في سلوك المتعاملين أو احتياجاتهم.",
+      "requirements": [
+        {
+          "text_en": "Conduct an annual review of the customer segmentation model",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Modify the model when substantial data shifts occur",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "segmentation review",
+        "behavior shifts",
+        "annual update",
+        "data-driven adjustment",
+        "customer needs"
+      ]
+    },
+    {
+      "code": "2.5.3",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.5",
+      "category_en": "Customer Segmentation",
+      "description_en": "Ensure auto-alignment of service paths for content, guidelines, and available channel offers based on the customer category, so each group receives the most suitable path for its characteristics and needs.",
+      "description_ar": "ضمان موائمة مسارات الخدمة للمحتوى والإرشادات وعروض القنوات المتاحة بشكل تلقائي بناءً على فئة المتعامل، بحيث تحصل كل فئة على المسار الأنسب لخصائصها واحتياجاتها.",
+      "requirements": [
+        {
+          "text_en": "Auto-alignment of content, guidelines, and channel offers based on customer category",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide the most suitable path for each category based on its traits and needs",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "auto-alignment",
+        "adaptive journeys",
+        "tailored content",
+        "category-based paths",
+        "personalization"
+      ]
+    },
+    {
+      "code": "2.5.4",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.5",
+      "category_en": "Customer Segmentation",
+      "description_en": "Display a customized list of services relevant to the customer's category after login, providing a brief explanation for each service outlining why it suits them.",
+      "description_ar": "عرض قائمة مخصصة بالخدمات ذات الصلة بفئة المتعامل، وذلك بعد تسجيل الدخول، مع توفير شرح موجز لكل خدمة يوضح سبب ملاءمتها له.",
+      "requirements": [
+        {
+          "text_en": "Display a custom list of relevant services by category post-login",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide a brief explanation for each service showing its relevance",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "service recommendations",
+        "customized list",
+        "relevance explanation",
+        "post-login experience",
+        "targeted offerings"
+      ]
+    },
+    {
+      "code": "2.5.5",
+      "pillar_id": 2,
+      "pillar_name_en": "Customer First",
+      "category_number": "2.5",
+      "category_en": "Customer Segmentation",
+      "description_en": "Ensure outbound awareness campaigns target specific customer categories, including a clear reference to the specific services and benefits relevant to each targeted group.",
+      "description_ar": "ضمان استهداف الحملات التوعوية الصادرة لفئات محددة من المتعاملين، مع تضمين إشارة واضحة إلى الخدمات والمزايا المحددة ذات الصلة بكل فئة مستهدفة.",
+      "requirements": [
+        {
+          "text_en": "Target specific customer categories in awareness campaigns",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include a clear reference to relevant services and benefits for each category",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "targeted campaigns",
+        "awareness marketing",
+        "segment-specific benefits",
+        "outbound communications",
+        "personalized messaging"
+      ]
+    },
+    {
+      "code": "8.1.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "Customers must be notified within one hour of any severe malfunction affecting services, via the approved official communication channels specified in the customer's service profile.",
+      "description_ar": "يتعين إشعار المتعاملين خلال ساعة واحدة من حدوث أي خلل جسيم يؤثر على الخدمات، وذلك عبر قنوات التواصل الرسمية المعتمدة والمحددة في ملف الخدمة الخاص بالمتعامل.",
+      "requirements": [
+        {
+          "text_en": "Send notification within 1 hour of severe malfunction",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Send notification via approved official channels",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Use channels specified in customer's service profile",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "outage alert",
+        "1-hour SLA",
+        "severe malfunction",
+        "official channels",
+        "downtime communication"
+      ]
+    },
+    {
+      "code": "8.1.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "Issue periodic updates on major incidents at least every four hours until the problem is completely resolved.",
+      "description_ar": "إصدار تحديثات دورية عن الحوادث الكبرى كل أربع ساعات على الأقل حتى يتم حل المشكلة بشكل كامل.",
+      "requirements": [
+        {
+          "text_en": "Issue updates at least every 4 hours until full resolution",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "periodic updates",
+        "major incident",
+        "4-hour frequency",
+        "crisis management",
+        "outage status"
+      ]
+    },
+    {
+      "code": "8.1.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "Inform customers within one hour when the malfunction is fully resolved and services are restored.",
+      "description_ar": "إبلاغ المتعاملين خلال ساعة واحدة عند حل الخلل بالكامل واستعادة الخدمات.",
+      "requirements": [
+        {
+          "text_en": "Inform customers within 1 hour upon malfunction resolution",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "resolution alert",
+        "service restoration",
+        "1-hour notice",
+        "downtime over",
+        "customer updates"
+      ]
+    },
+    {
+      "code": "8.1.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "All communications regarding malfunctions or operational defects must include the expected resolution time or the time of the next update.",
+      "description_ar": "يتعين أن تتضمن جميع مراسلات الأعطال أو الخلل التشغيلي الوقت المتوقع للحل أو موعد التحديث التالي.",
+      "requirements": [
+        {
+          "text_en": "Include expected resolution time or next update time in all communications",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "ETA",
+        "expected resolution time",
+        "next update",
+        "outage messaging",
+        "transparency"
+      ]
+    },
+    {
+      "code": "8.1.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "Record every malfunction or service interruption within a centralized system and track it until the malfunction is fully resolved.",
+      "description_ar": "تسجيل كل عطل أو انقطاع في الخدمة ضمن نظام مركزي وتتبعه حتى حل العطل بالكامل.",
+      "requirements": [
+        {
+          "text_en": "Record all malfunctions and outages in central system",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Track incident until full resolution",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "incident logging",
+        "centralized tracking",
+        "outage management",
+        "end-to-end resolution",
+        "downtime record"
+      ]
+    },
+    {
+      "code": "8.1.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.1",
+      "category_en": "Communication During Service Outages",
+      "description_en": "Share a post-incident report detailing causes, solutions, and lessons learned within 10 working days from the malfunction's closure date.",
+      "description_ar": "مشاركة تقرير ما بعد العطل أو الخلل التشغيلي، يوضح الأسباب والحلول والدروس المستفادة، وذلك خلال عشرة أيام عمل من تاريخ إغلاق العطل.",
+      "requirements": [
+        {
+          "text_en": "Share comprehensive report within 10 working days of closure",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include causes, solutions, and lessons learned",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "post-mortem",
+        "incident report",
+        "lessons learned",
+        "root cause analysis",
+        "RCA"
+      ]
+    },
+    {
+      "code": "8.2.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "Provide alternative paths or fallback options enabling customers to continue using critical services during outages.",
+      "description_ar": "توفير مسارات بديلة أو خيارات احتياطية تمكن المتعاملين من مواصلة استخدام الخدمات الحرجة أثناء الانقطاعات.",
+      "requirements": [
+        {
+          "text_en": "Provide alternative paths or fallback options for critical services",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Enable service continuation during outages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fallback options",
+        "alternative paths",
+        "critical services",
+        "business continuity",
+        "outage mitigation"
+      ]
+    },
+    {
+      "code": "8.2.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "Fallback mechanisms must enable customers to complete critical transactions without exerting additional effort beyond the requirements of the original request.",
+      "description_ar": "يتعين أن تمكن الآليات الاحتياطية المتعاملين من إتمام المعاملات الحرجة دون بذل جهد إضافي يتجاوز متطلبات الطلب الأصلي.",
+      "requirements": [
+        {
+          "text_en": "Complete critical transactions without extra effort beyond original request",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "effortless fallback",
+        "seamless alternative",
+        "critical transactions",
+        "user friction",
+        "continuity UX"
+      ]
+    },
+    {
+      "code": "8.2.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "All fallback options must be tested at least once on a quarterly basis to ensure their integrity and reliability.",
+      "description_ar": "يتعين اختيار جميع الخيارات الاحتياطية مرة واحدة على الأقل على أساس ربع سنوي للتأكد من سلامتها وموثوقيتها.",
+      "requirements": [
+        {
+          "text_en": "Test all fallback options quarterly",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ensure integrity and reliability",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fallback testing",
+        "quarterly test",
+        "system reliability",
+        "redundancy check",
+        "disaster recovery"
+      ]
+    },
+    {
+      "code": "8.2.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "Commit to notifying customers immediately upon activating fallback options during a service outage.",
+      "description_ar": "الالتزام بإشعار المتعاملين فوراً عند تفعيل الخيارات الاحتياطية أثناء انقطاع الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Notify customers immediately upon fallback activation",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fallback activation",
+        "instant alert",
+        "service interruption",
+        "customer transparency",
+        "system switch"
+      ]
+    },
+    {
+      "code": "8.2.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "Commit to continuously monitoring the transaction completion rate via fallback options and providing a quarterly report on it.",
+      "description_ar": "الالتزام برصد نسبة إتمام المعاملات عبر الخيارات الاحتياطية بشكل مستمر وتقديم تقرير ربع سنوي عنها.",
+      "requirements": [
+        {
+          "text_en": "Continuous monitoring of completion rate via alternatives",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Provide quarterly report",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fallback analytics",
+        "completion rate",
+        "redundancy reporting",
+        "alternative path KPI",
+        "quarterly report"
+      ]
+    },
+    {
+      "code": "8.2.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.2",
+      "category_en": "Alternative Paths",
+      "description_en": "Review the effectiveness of fallback options annually, making necessary adjustments to address identified weaknesses.",
+      "description_ar": "مراجعة فعالية الخيارات الاحتياطية سنوياً، مع إجراء التعديلات اللازمة لمعالجة نقاط الضعف المحددة.",
+      "requirements": [
+        {
+          "text_en": "Review effectiveness of fallback options annually",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Make necessary adjustments",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "fallback optimization",
+        "annual review",
+        "weakness remediation",
+        "redundancy tuning",
+        "continuous improvement"
+      ]
+    },
+    {
+      "code": "8.3.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Back up all customer data and cases at least once every 24 hours using secure, encrypted storage systems.",
+      "description_ar": "نسخ جميع بيانات المتعاملين والحالات احتياطياً مرة واحدة على الأقل كل 24 ساعة باستخدام أنظمة تخزين آمنة ومشفرة.",
+      "requirements": [
+        {
+          "text_en": "Back up all customer data and cases every 24 hours",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Use secure and encrypted storage systems",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "daily backup",
+        "data recovery",
+        "encrypted storage",
+        "disaster recovery",
+        "RPO"
+      ]
+    },
+    {
+      "code": "8.3.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Conduct full restoration tests for customer data and cases on a quarterly basis, documenting results and having them reviewed by IT senior management.",
+      "description_ar": "إجراء اختبارات استرداد كاملة لبيانات المتعاملين والحالات على أساس ربع سنوي، مع توثيق النتائج ومراجعتها من قبل الإدارة العليا لتقنية المعلومات.",
+      "requirements": [
+        {
+          "text_en": "Conduct full restoration tests quarterly",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Document results and review by senior management",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "restoration testing",
+        "data recovery",
+        "quarterly drill",
+        "IT management",
+        "RTO"
+      ]
+    },
+    {
+      "code": "8.3.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Ensure systems do not lose any customer-submitted data during outages via real-time data capturing fallback mechanisms.",
+      "description_ar": "ضمان عدم فقدان الأنظمة لأية بيانات مقدمة من قبل المتعاملين أثناء الأعطال، وذلك من خلال آليات احتياطية لرصد البيانات في الوقت الفعلي.",
+      "requirements": [
+        {
+          "text_en": "Ensure no submitted data is lost during outages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Test fallback mechanisms",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "zero data loss",
+        "real-time capture",
+        "system outage",
+        "high availability",
+        "transaction resilience"
+      ]
+    },
+    {
+      "code": "8.3.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Restore transaction records and make them accessible to customers and employees within a period not exceeding 24 hours after any service outage.",
+      "description_ar": "استعادة سجلات المعاملات وإتاحة الوصول إليها للمتعاملين والموظفين خلال مدة لا تتجاوز 24 ساعة بعد أي انقطاع في الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Restore and provide access to transaction records within 24 hours of outage",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "record restoration",
+        "24-hour SLA",
+        "system downtime",
+        "access recovery",
+        "business continuity"
+      ]
+    },
+    {
+      "code": "8.3.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Formally document recovery procedures, test them against operational scenarios, and update them at least annually.",
+      "description_ar": "توثيق إجراءات الاسترداد رسمياً واختبارها وفق سيناريوهات تشغيلية وتحديثها سنوياً على الأقل.",
+      "requirements": [
+        {
+          "text_en": "Formally document recovery procedures",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Test procedures against operational scenarios",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Annual update",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "recovery playbook",
+        "scenario testing",
+        "annual update",
+        "BCP documentation",
+        "IT operations"
+      ]
+    },
+    {
+      "code": "8.3.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.3",
+      "category_en": "Data Recovery",
+      "description_en": "Notify customers within 24 hours if their transaction data has been restored following any outage or data loss.",
+      "description_ar": "إشعار المتعاملين خلال 24 ساعة في حال تم استعادة بيانات معاملاتهم بعد أية انقطاع أو فقدان للبيانات.",
+      "requirements": [
+        {
+          "text_en": "Notify customers within 24 hours upon restoring their data",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "recovery notification",
+        "data restoration",
+        "customer communication",
+        "outage update",
+        "transparency"
+      ]
+    },
+    {
+      "code": "8.4.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Ensure continuous availability of payment services during outages through automatic failover to backup infrastructure.",
+      "description_ar": "إتاحة خدمات الدفع بشكل مستمر أثناء الانقطاعات من خلال التحويل التلقائي إلى بنية تحتية احتياطية.",
+      "requirements": [
+        {
+          "text_en": "Continuous availability of payment services during outages",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "payment continuity",
+        "auto failover",
+        "backup infrastructure",
+        "transaction resilience",
+        "uptime"
+      ]
+    },
+    {
+      "code": "8.4.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Failed payments must be automatically retried within one hour, not exceeding three attempts before initiating escalation procedures.",
+      "description_ar": "يتعين إعادة محاولة الدفعات الفاشلة تلقائياً خلال ساعة واحدة، على ألا تتجاوز المحاولات ثلاث مرات قبل بدء إجراءات التصعيد.",
+      "requirements": [
+        {
+          "text_en": "Automatic retry within 1 hour",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Maximum 3 attempts before escalation",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "auto-retry",
+        "failed payments",
+        "escalation threshold",
+        "billing error",
+        "transaction logic"
+      ]
+    },
+    {
+      "code": "8.4.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Commit to notifying customers within 15 minutes upon payment attempt failure, clarifying the next steps for resolution.",
+      "description_ar": "الالتزام بإشعار المتعاملين خلال 15 دقيقة في حال فشل محاولة الدفع، مع توضيح الخطوات التالية للحل.",
+      "requirements": [
+        {
+          "text_en": "Notify customers within 15 mins upon payment failure",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include next steps",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "payment failure alert",
+        "15-minute SLA",
+        "resolution steps",
+        "transaction error",
+        "customer comms"
+      ]
+    },
+    {
+      "code": "8.4.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Ensure payment systems retain all transaction data and reconcile them correctly during outages, guaranteeing no financial losses or transaction duplications occur.",
+      "description_ar": "ضمان احتفاظ أنظمة الدفع بجميع بيانات المعاملات وتسويتها بشكل صحيح أثناء الانقطاعات، بما يضمن عدم حدوث خسائر مالية أو تكرار للمعاملات.",
+      "requirements": [
+        {
+          "text_en": "Retain and reconcile all transaction data during outages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Prevent financial losses and duplications",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "payment reconciliation",
+        "data integrity",
+        "financial loss prevention",
+        "duplicate transactions",
+        "outage resilience"
+      ]
+    },
+    {
+      "code": "8.4.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Provide at least one secure backup payment channel that is always available in case the primary channel fails.",
+      "description_ar": "توفير قناة دفع احتياطية آمنة واحدة على الأقل تكون متاحة دائماً في حال تعذر عمل القناة الأساسية.",
+      "requirements": [
+        {
+          "text_en": "Availability of a secure backup payment channel at all times",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "backup payment",
+        "failover channel",
+        "secure redundancy",
+        "payment availability",
+        "financial continuity"
+      ]
+    },
+    {
+      "code": "8.4.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.4",
+      "category_en": "Payment Flexibility",
+      "description_en": "Conduct an annual resilience test to verify the payment systems' ability to continue processing transactions during simulated outages.",
+      "description_ar": "إجراء اختبار سنوي للمرونة، وذلك للتحقق من قدرة أنظمة الدفع على الاستمرار في معالجة المعاملات خلال الانقطاعات المحاكاة.",
+      "requirements": [
+        {
+          "text_en": "Conduct annual resilience test during simulated outages",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Confirm ability to process transactions",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "payment resilience",
+        "annual drill",
+        "simulated outage",
+        "transaction processing",
+        "stress testing"
+      ]
+    },
+    {
+      "code": "8.5.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Commit to notifying customers of any confirmed security incident affecting their data or services within 24 hours of discovery.",
+      "description_ar": "الالتزام بضرورة إشعار المتعاملين حول أية حادث أمني مؤكد يؤثر على بياناتهم أو خدماتهم، وذلك خلال 24 ساعة من اكتشافه.",
+      "requirements": [
+        {
+          "text_en": "Notify customers within 24 hours of discovering an impacting security incident",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "security breach",
+        "data leak",
+        "24-hour notification",
+        "incident disclosure",
+        "customer impact"
+      ]
+    },
+    {
+      "code": "8.5.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Ensure incident notifications clarify the type of breach, affected systems, scope of data/service impact, and actions taken.",
+      "description_ar": "ضمان توضيح نوع الاختراق والأنظمة المتضررة ونطاق تأثير البيانات أو الخدمة والإجراءات المتخذة في إشعارات الحوادث.",
+      "requirements": [
+        {
+          "text_en": "Include all required elements",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "breach details",
+        "incident scope",
+        "mitigation steps",
+        "transparency",
+        "cybersecurity notice"
+      ]
+    },
+    {
+      "code": "8.5.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Commit to providing customers with clear preventive measures to minimize risks after any security incident.",
+      "description_ar": "الالتزام بتزويد المتعاملين بإجراءات وقائية واضحة لتقليل المخاطر بعد أي حادث أمني.",
+      "requirements": [
+        {
+          "text_en": "Provide customers with clear preventive measures",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "preventive measures",
+        "risk minimization",
+        "customer guidance",
+        "post-incident support",
+        "security hygiene"
+      ]
+    },
+    {
+      "code": "8.5.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Log all security incidents within a central incident management system tracking resolution from start to finish.",
+      "description_ar": "تسجيل جميع الحوادث الأمنية ضمن نظام مركزي لإدارة الحوادث يتتبع الحل من البداية إلى النهاية.",
+      "requirements": [
+        {
+          "text_en": "Log all security incidents in central system",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Track from start to finish",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "incident management system",
+        "security logging",
+        "end-to-end tracking",
+        "cybersecurity operations",
+        "issue resolution"
+      ]
+    },
+    {
+      "code": "8.5.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Issue a final report for the security incident within 30 calendar days of closing the incident.",
+      "description_ar": "إصدار تقرير نهائي للحادث الأمني خلال 30 يوماً تقويمياً من إغلاق الحادث.",
+      "requirements": [
+        {
+          "text_en": "Issue final report within 30 days of closure",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "final incident report",
+        "30-day SLA",
+        "security review",
+        "post-mortem",
+        "incident closure"
+      ]
+    },
+    {
+      "code": "8.5.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.5",
+      "category_en": "Security Incidents and Notifications",
+      "description_en": "Review and test security incident response plans at least annually to ensure readiness.",
+      "description_ar": "مراجعة واختبار خطط الاستجابة للحوادث الأمنية سنوياً على الأقل، لضمان الجاهزية.",
+      "requirements": [
+        {
+          "text_en": "Annual review and testing of response plans",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "incident response plan",
+        "IRP testing",
+        "cyber readiness",
+        "annual drill",
+        "security posture"
+      ]
+    },
+    {
+      "code": "8.6.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Make all in-person services available to customers and ensure their effectiveness during digital system outages, without any reduction in service scope.",
+      "description_ar": "إتاحة جميع الخدمات الحضورية للمتعاملين وضمان فعاليتها أثناء تعطل الأنظمة الرقمية، دون أية تقليص في نطاق الخدمات.",
+      "requirements": [
+        {
+          "text_en": "Keep in-person services active during digital outages without reduction",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "in-person continuity",
+        "system outage",
+        "full scope",
+        "branch operations",
+        "offline service"
+      ]
+    },
+    {
+      "code": "8.6.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Provide paper-based or manual alternatives for employees and customers in case of digital system outages.",
+      "description_ar": "توفير بدائل ورقية أو يدوية للموظفين والمتعاملين في حال تعطل الأنظمة الرقمية.",
+      "requirements": [
+        {
+          "text_en": "Provide paper/manual alternatives upon system outage",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "paper alternatives",
+        "manual processing",
+        "fallback tools",
+        "offline operations",
+        "downtime kit"
+      ]
+    },
+    {
+      "code": "8.6.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Test continuity plans for in-person services at least once annually, documenting the results.",
+      "description_ar": "اختبار خطط استمرارية الخدمات الحضورية مرة واحدة سنوياً على الأقل مع توثيق النتائج.",
+      "requirements": [
+        {
+          "text_en": "Test in-person service continuity plans annually",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "BCP testing",
+        "physical service resilience",
+        "annual drill",
+        "offline continuity",
+        "branch readiness"
+      ]
+    },
+    {
+      "code": "8.6.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Train front-line employees annually on providing services via manual methods in the event of system outages.",
+      "description_ar": "تدريب موظفي الصفوف الأمامية سنوياً على تقديم الخدمات بالطرق اليدوية في حال تعطل الأنظمة.",
+      "requirements": [
+        {
+          "text_en": "Train front-line staff annually on manual methods",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "manual operations training",
+        "front-line readiness",
+        "offline procedures",
+        "employee drills",
+        "BCP training"
+      ]
+    },
+    {
+      "code": "8.6.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Notify customers immediately upon activating business continuity procedures for in-person services.",
+      "description_ar": "إشعار المتعاملين فوراً عند تفعيل إجراءات استمرارية الأعمال للخدمات الحضورية.",
+      "requirements": [
+        {
+          "text_en": "Notify customers instantly upon activation",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "BCP activation alert",
+        "offline mode notice",
+        "customer transparency",
+        "branch operations",
+        "immediate update"
+      ]
+    },
+    {
+      "code": "8.6.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.6",
+      "category_en": "Business Continuity for In-Person Services",
+      "description_en": "Update continuity plans after every incident to document lessons learned and enhance future resilience.",
+      "description_ar": "تحديث خطط الاستمرارية بعد كل حادث لتوثيق الدروس المستفادة وتعزيز المرونة المستقبلية.",
+      "requirements": [
+        {
+          "text_en": "Update continuity plans after every incident",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "BCP revision",
+        "post-incident review",
+        "lessons learned",
+        "resilience building",
+        "continuous improvement"
+      ]
+    },
+    {
+      "code": "8.7.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Conduct an annual risk assessment for all critical suppliers to measure outage probabilities and their impact on dependent services.",
+      "description_ar": "إجراء تقييم سنوي للمخاطر لجميع الموردين ذوي الأهمية لقياس احتمالات التعطل وتأثيره على الخدمات المعتمدة عليهم.",
+      "requirements": [
+        {
+          "text_en": "Conduct annual risk assessment for critical suppliers",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "vendor risk assessment",
+        "critical suppliers",
+        "dependency mapping",
+        "outage probability",
+        "supply chain"
+      ]
+    },
+    {
+      "code": "8.7.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Ensure backup suppliers are in place with pre-signed contracts, guaranteeing their ability to assume and provide critical services within 24 hours if the primary supplier fails.",
+      "description_ar": "التأكد من وجود موردين احتياطيين بعقود مبرمة مسبقاً، مع ضمان قدرتهم على استلام وتقديم الخدمات الحرجة خلال 24 ساعة في حال توقف المورد الأساسي.",
+      "requirements": [
+        {
+          "text_en": "Presence of backup suppliers with pre-signed contracts",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Ability to provide services within 24 hours",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "backup vendor",
+        "failover supplier",
+        "24-hour transition",
+        "vendor redundancy",
+        "contingency contracting"
+      ]
+    },
+    {
+      "code": "8.7.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Include explicit clauses regarding service continuity, data protection, and incident response in all supplier contracts.",
+      "description_ar": "تضمين بنود صريحة بشأن استمرارية الخدمة وحماية البيانات والاستجابة للحوادث في جميع عقود الموردين.",
+      "requirements": [
+        {
+          "text_en": "Include explicit clauses for continuity, data protection, and response",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "vendor SLA",
+        "contract clauses",
+        "data protection",
+        "incident response",
+        "supplier continuity"
+      ]
+    },
+    {
+      "code": "8.7.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Review supplier performance and compliance with business continuity requirements at least quarterly.",
+      "description_ar": "مراجعة أداء الموردين ومدى التزامهم بمتطلبات استمرارية الأعمال ربع سنوياً على الأقل.",
+      "requirements": [
+        {
+          "text_en": "Quarterly review of supplier performance and compliance",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "vendor performance review",
+        "quarterly audit",
+        "BCP compliance",
+        "supplier management",
+        "SLA monitoring"
+      ]
+    },
+    {
+      "code": "8.7.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Suppliers commit to reporting any outage or malfunction affecting government services within one hour of discovery.",
+      "description_ar": "التزام الموردين بالإبلاغ عن أي انقطاع أو عطل يؤثر على الخدمات الحكومية وذلك خلال ساعة من اكتشافه.",
+      "requirements": [
+        {
+          "text_en": "Suppliers report within 1 hour of discovering impacting malfunction",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "vendor outage alert",
+        "1-hour SLA",
+        "third-party disruption",
+        "supplier reporting",
+        "incident transparency"
+      ]
+    },
+    {
+      "code": "8.7.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.7",
+      "category_en": "Service Continuity in Case of Supplier Service Outages",
+      "description_en": "Test supplier continuity and malfunction response plans annually, ensuring corrective actions are tracked.",
+      "description_ar": "اختبار خطط استمرارية الموردين والاستجابة للأعطال سنوياً، مع ضمان رصد الإجراءات التصحيحية.",
+      "requirements": [
+        {
+          "text_en": "Test supplier continuity plans annually",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "supplier BCP testing",
+        "vendor readiness drill",
+        "annual audit",
+        "corrective actions",
+        "third-party resilience"
+      ]
+    },
+    {
+      "code": "8.8.1",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Ensure recovery tests simulate real-world customer usage scenarios, including usage during peak times and across various service channels.",
+      "description_ar": "ضمان محاكاة اختبارات الاسترجاع السيناريوهات الاستخدام الحقيقية للمتعاملين، بما في ذلك الاستخدام خلال أوقات الذروة وعبر مختلف قنوات الخدمة.",
+      "requirements": [
+        {
+          "text_en": "Simulate real usage in recovery tests",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Include peak times and multiple channels",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "recovery simulation",
+        "real-world scenarios",
+        "peak load testing",
+        "omnichannel testing",
+        "system readiness"
+      ]
+    },
+    {
+      "code": "8.8.2",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Document all recovery test results, review them by leadership, and publish them internally within 30 days.",
+      "description_ar": "توثيق كافة نتائج اختبارات الاسترجاع ومراجعتها من قبل القيادة ونشرها داخلياً خلال 30 يوماً.",
+      "requirements": [
+        {
+          "text_en": "Document all test results",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Leadership review and internal publishing within 30 days",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "test documentation",
+        "leadership review",
+        "internal reporting",
+        "30-day SLA",
+        "readiness audit"
+      ]
+    },
+    {
+      "code": "8.8.3",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Ensure customers face no difficulty accessing services during planned recovery tests, announcing the timing of these tests in advance.",
+      "description_ar": "ضمان عدم مواجهة المتعاملين أية صعوبة في الوصول إلى الخدمات أثناء اختبارات التعافي المخطط لها، والإعلان مسبقاً عن فترات إجراء هذه الاختبارات.",
+      "requirements": [
+        {
+          "text_en": "No loss of access during planned tests",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Advance announcement of testing periods",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "planned maintenance",
+        "service continuity",
+        "advance notice",
+        "zero downtime testing",
+        "user transparency"
+      ]
+    },
+    {
+      "code": "8.8.4",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Coordinate with external suppliers within recovery tests to verify the ability to restore the service holistically.",
+      "description_ar": "ضرورة التنسيق مع الموردين الخارجيين، ضمن اختبارات التعافي، للتحقق من قابلية استرجاع الخدمة بشكل متكامل.",
+      "requirements": [
+        {
+          "text_en": "Include external suppliers in tests",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Verify holistic service restoration capability",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "vendor coordination",
+        "holistic recovery",
+        "supply chain testing",
+        "integration testing",
+        "end-to-end resilience"
+      ]
+    },
+    {
+      "code": "8.8.5",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Conduct comprehensive recovery tests annually encompassing all critical systems and customer services.",
+      "description_ar": "إجراء اختبارات تعافي شاملة سنوياً تضم جميع الأنظمة الحرجة وخدمات المتعاملين.",
+      "requirements": [
+        {
+          "text_en": "Conduct comprehensive annual tests for all critical systems",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "annual recovery drill",
+        "comprehensive testing",
+        "critical systems check",
+        "disaster simulation",
+        "infrastructure readiness"
+      ]
+    },
+    {
+      "code": "8.8.6",
+      "pillar_id": 8,
+      "pillar_name_en": "Service and Systems Efficiency",
+      "category_number": "8.8",
+      "category_en": "Systems Readiness Tests",
+      "description_en": "Commit to formally documenting lessons learned from each recovery test and applying corrective actions within three months.",
+      "description_ar": "الالتزام بتوثيق الدروس المستفادة من كل اختبار تعافي رسمياً، وتطبيق الإجراءات التصحيحية خلال ثلاثة أشهر.",
+      "requirements": [
+        {
+          "text_en": "Formally document lessons learned",
+          "monitoring": ""
+        },
+        {
+          "text_en": "Apply corrective actions within 3 months",
+          "monitoring": ""
+        }
+      ],
+      "impact_level": "high",
+      "keywords_en": [
+        "lessons learned",
+        "post-test review",
+        "corrective actions",
+        "3-month SLA",
+        "continuous resilience"
+      ]
+    }
+  ]
+}

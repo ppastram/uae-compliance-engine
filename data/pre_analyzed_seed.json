@@ -1,0 +1,3266 @@
+[
+  {
+    "feedback_id": 136666,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136667,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136702,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Difficulty to Access",
+    "ai_code_violations": [
+      {
+        "code": "1.8.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.4"
+      },
+      {
+        "code": "1.8.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.5"
+      },
+      {
+        "code": "1.8.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.6"
+      },
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136718,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Overcrowding",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136743,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Accessibility",
+    "ai_code_violations": [
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.1"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "1.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136744,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136745,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136749,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136770,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.8.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.2"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136779,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136783,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136811,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "2.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.3"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136846,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136868,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136870,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136904,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "2.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.3"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136911,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136913,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "2.3.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.3"
+      },
+      {
+        "code": "1.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.5"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "2.3.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136931,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136933,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136938,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Quality of Service",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136945,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Access through IVR",
+    "ai_code_violations": [
+      {
+        "code": "1.8.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.4"
+      },
+      {
+        "code": "1.8.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.5"
+      },
+      {
+        "code": "1.8.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.6"
+      },
+      {
+        "code": "1.8.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.2"
+      },
+      {
+        "code": "1.8.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136976,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Accessibility",
+    "ai_code_violations": [
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.1"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "1.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136983,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 136984,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Availability of Support",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137014,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "2.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.3"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137042,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Availability of Information",
+    "ai_code_violations": [
+      {
+        "code": "2.4.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.4"
+      },
+      {
+        "code": "2.4.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.1"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      },
+      {
+        "code": "2.4.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.3"
+      },
+      {
+        "code": "1.4.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.1"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137043,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137044,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137045,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Availability of Information",
+    "ai_code_violations": [
+      {
+        "code": "2.4.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.4"
+      },
+      {
+        "code": "2.4.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.1"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      },
+      {
+        "code": "2.4.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.3"
+      },
+      {
+        "code": "1.4.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.1"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137048,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137054,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Accessibility",
+    "ai_code_violations": [
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.1"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "1.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137057,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137060,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137061,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137062,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137065,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137066,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137067,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137068,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137070,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137080,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137097,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Difficulty to Access",
+    "ai_code_violations": [
+      {
+        "code": "1.8.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.4"
+      },
+      {
+        "code": "1.8.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.5"
+      },
+      {
+        "code": "1.8.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.6"
+      },
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137106,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137132,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137189,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137213,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137219,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137236,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.8.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.2"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137237,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137238,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137244,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137245,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137255,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137306,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137333,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137336,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137348,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137349,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.8.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      },
+      {
+        "code": "1.8.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137350,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137351,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137352,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137353,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137359,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137360,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137362,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137364,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137365,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137366,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137373,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137388,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137401,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137408,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137470,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137471,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137525,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Payment Process",
+    "ai_code_violations": [
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.6.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.5"
+      },
+      {
+        "code": "1.6.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.6"
+      },
+      {
+        "code": "1.6.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.2"
+      },
+      {
+        "code": "1.6.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137528,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "8.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.3"
+      },
+      {
+        "code": "1.2.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.2.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137543,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Quality of Service",
+    "ai_code_violations": [
+      {
+        "code": "2.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.1"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "8.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.2"
+      },
+      {
+        "code": "2.1.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137545,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137615,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      },
+      {
+        "code": "2.4.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.4.6"
+      },
+      {
+        "code": "2.3.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.1"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137643,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137645,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137653,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137663,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Payment Process",
+    "ai_code_violations": [
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.6.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.5"
+      },
+      {
+        "code": "1.6.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.6"
+      },
+      {
+        "code": "1.6.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.2"
+      },
+      {
+        "code": "1.6.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137666,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Accessibility",
+    "ai_code_violations": [
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      },
+      {
+        "code": "1.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.1"
+      },
+      {
+        "code": "1.1.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.3"
+      },
+      {
+        "code": "1.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.2"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137677,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "8.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.5"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137705,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137707,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complaints Handling",
+    "ai_code_violations": [
+      {
+        "code": "2.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.5"
+      },
+      {
+        "code": "2.5.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.4"
+      },
+      {
+        "code": "2.5.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.1"
+      },
+      {
+        "code": "2.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.2"
+      },
+      {
+        "code": "2.5.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.5.3"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137747,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Payment Process",
+    "ai_code_violations": [
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.6.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.5"
+      },
+      {
+        "code": "1.6.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.6"
+      },
+      {
+        "code": "1.6.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.2"
+      },
+      {
+        "code": "1.6.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137764,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Difficulty to Access",
+    "ai_code_violations": [
+      {
+        "code": "1.8.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.4"
+      },
+      {
+        "code": "1.8.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.5"
+      },
+      {
+        "code": "1.8.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.8.6"
+      },
+      {
+        "code": "1.1.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.5"
+      },
+      {
+        "code": "1.1.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.1.6"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137766,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Payment Process",
+    "ai_code_violations": [
+      {
+        "code": "1.6.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.3"
+      },
+      {
+        "code": "1.6.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.5"
+      },
+      {
+        "code": "1.6.6",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.6"
+      },
+      {
+        "code": "1.6.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.2"
+      },
+      {
+        "code": "1.6.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.6.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137772,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.5.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.2"
+      },
+      {
+        "code": "2.3.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.3"
+      },
+      {
+        "code": "1.5.5",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.5.5"
+      },
+      {
+        "code": "2.3.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.2"
+      },
+      {
+        "code": "2.3.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.3.4"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137782,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Waiting Time",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137787,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Quality of Service",
+    "ai_code_violations": [
+      {
+        "code": "2.1.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.1"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "8.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.4"
+      },
+      {
+        "code": "8.1.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 8.1.2"
+      },
+      {
+        "code": "2.1.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137788,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Employee Professionalism",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "2.1.4",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 2.1.4"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      }
+    ]
+  },
+  {
+    "feedback_id": 137827,
+    "ai_sentiment": "negative",
+    "ai_is_complaint": true,
+    "ai_severity": "high",
+    "ai_category": "Complex process",
+    "ai_code_violations": [
+      {
+        "code": "1.7.3",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.3"
+      },
+      {
+        "code": "1.7.1",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.1"
+      },
+      {
+        "code": "1.7.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.2"
+      },
+      {
+        "code": "1.7.7",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.7.7"
+      },
+      {
+        "code": "1.4.2",
+        "confidence": "medium",
+        "explanation": "Feedback flags suggest non-compliance with code 1.4.2"
+      }
+    ]
+  }
+]
