@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* UAE Government Color Palette */
+  --color-uae-gold: #CA9A2C;
+  --color-uae-green: #006B48;
+  --color-uae-red: #C8102E;
+  --color-uae-black: #232528;
+  --color-uae-white: #FFFFFF;
+  --color-uae-gray-50: #F2F2F2;
+  --color-uae-gray-100: #E5E5E5;
+  --color-uae-gray-200: #CCCCCC;
+
+  /* shadcn/ui CSS Variables mapped to UAE palette */
+  --color-background: #FFFFFF;
+  --color-foreground: #232528;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #232528;
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #232528;
+  --color-primary: #CA9A2C;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #F2F2F2;
+  --color-secondary-foreground: #232528;
+  --color-muted: #F2F2F2;
+  --color-muted-foreground: #71717a;
+  --color-accent: #F2F2F2;
+  --color-accent-foreground: #232528;
+  --color-destructive: #C8102E;
+  --color-destructive-foreground: #FFFFFF;
+  --color-border: #E5E5E5;
+  --color-input: #E5E5E5;
+  --color-ring: #CA9A2C;
+
+  --radius: 0.5rem;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
