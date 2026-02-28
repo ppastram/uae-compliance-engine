@@ -27,9 +27,9 @@ const navByRole: Record<Role, NavItem[]> = {
   ],
   reviewer: [
     { label: "Dashboard", href: "/dashboard", icon: BarChart3 },
+    { label: "Overview", href: "/reviewer", icon: CheckCircle },
     { label: "Reviewer Inbox", href: "/reviewer/inbox", icon: Inbox },
     { label: "Cases", href: "/reviewer/cases", icon: FolderOpen },
-    { label: "Overview", href: "/reviewer", icon: CheckCircle },
   ],
   entity: [
     { label: "Entity Portal", href: "/entity", icon: Building2 },
@@ -72,7 +72,7 @@ export function Sidebar() {
       <nav className="flex-1 p-4">
         <ul className="space-y-1">
           {items.map((item) => {
-            const isActive = pathname === item.href || pathname?.startsWith(item.href + "/")
+            const isActive = pathname === item.href || (item.href !== "/reviewer" && pathname?.startsWith(item.href + "/"))
             return (
               <li key={item.href}>
                 <Link

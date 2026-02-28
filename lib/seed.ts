@@ -75,6 +75,67 @@ const POSITIVE_COMMENTS = [
   "تم إنجاز المعاملة بسرعة - The transaction was completed quickly",
 ]
 
+const CATEGORY_OPTIONS = [
+  "service_quality", "employee_conduct", "process_complexity", "accessibility",
+  "waiting_time", "communication", "fees", "digital_experience",
+  "information_clarity", "complaint_handling",
+]
+
+const SEED_VIOLATIONS: Record<string, Array<{ code: string; explanation: string }>> = {
+  waiting_time: [
+    { code: "2.1.1", explanation: "Service performance monitoring standards require tracking and minimizing customer wait times." },
+    { code: "1.7.1", explanation: "Instant digital support is required to reduce unnecessary in-person wait times." },
+  ],
+  employee_conduct: [
+    { code: "2.3.1", explanation: "Customer experience management requires professional staff interactions at all touchpoints." },
+    { code: "2.2.1", explanation: "Entities must address and act on feedback about staff conduct promptly." },
+  ],
+  process_complexity: [
+    { code: "1.5.1", explanation: "Customer journey simplification requires minimizing steps and documents required." },
+    { code: "1.2.1", explanation: "Form quality standards require clear, simple forms that guide the customer." },
+  ],
+  communication: [
+    { code: "2.4.1", explanation: "Proactive communication standards require entities to keep customers informed." },
+    { code: "1.7.3", explanation: "Service channels must provide timely notifications about service requests." },
+  ],
+  fees: [
+    { code: "1.6.1", explanation: "All service fees must be clearly displayed before the customer commits." },
+  ],
+  digital_experience: [
+    { code: "1.7.7", explanation: "Digital channels must maintain uptime standards and handle errors gracefully." },
+    { code: "1.8.1", explanation: "Digital services must function properly even in low connectivity environments." },
+  ],
+  information_clarity: [
+    { code: "1.4.1", explanation: "Digital literacy and help content standards require clear accessible guidance." },
+    { code: "1.9.1", explanation: "Content consistency standards require uniform information across channels." },
+  ],
+  complaint_handling: [
+    { code: "2.2.1", explanation: "Entities must acknowledge, track, and resolve all complaints within defined timelines." },
+    { code: "2.1.4", explanation: "Service monitoring must track complaint resolution rates and response times." },
+  ],
+  service_quality: [
+    { code: "2.1.1", explanation: "Service performance monitoring requires measurable quality benchmarks." },
+    { code: "2.3.1", explanation: "Customer experience management requires consistent service delivery across channels." },
+  ],
+  accessibility: [
+    { code: "1.1.1", explanation: "All service steps must meet WCAG 2.2 accessibility standards." },
+    { code: "1.3.1", explanation: "Services must be fully available in both Arabic and English." },
+  ],
+}
+
+const SUMMARIES: Record<string, string> = {
+  service_quality: "Citizen reported issues with overall service quality and delivery standards.",
+  employee_conduct: "Staff behavior reported as unprofessional or unhelpful during service interaction.",
+  process_complexity: "Service process found to be overly complex and difficult to navigate.",
+  accessibility: "Accessibility barriers experienced when attempting to use the service.",
+  waiting_time: "Excessive waiting times reported at the service center or call channel.",
+  communication: "Lack of clear communication about service status or requirements.",
+  fees: "Fees charged considered disproportionate to the service provided.",
+  digital_experience: "Technical issues or poor usability encountered in the digital channel.",
+  information_clarity: "Provided information found insufficient or unclear for service completion.",
+  complaint_handling: "Previous complaint not addressed or followed up within expected timeframe.",
+}
+
 function randomItem<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
 }
@@ -151,6 +212,49 @@ export function seedDatabase() {
         const traits = isComplaint ? randomSubset(DISLIKE_TRAIT_OPTIONS, 1, 4) : []
         const comment = isComplaint ? randomItem(COMPLAINT_COMMENTS) : (Math.random() < 0.6 ? randomItem(POSITIVE_COMMENTS) : null)
 
+        // Generate varied severity for non-pre-analyzed complaints
+        let severity: string | null = null
+        let category: string | null = null
+        let violations: string | null = null
+        let summary: string | null = null
+        let sentiment: string = "positive"
+
+        if (pa) {
+          severity = pa.ai_severity
+          category = pa.ai_category
+          violations = pa.ai_code_violations ? JSON.stringify(pa.ai_code_violations) as string : null
+          summary = `AI-classified ${pa.ai_category} issue with ${pa.ai_severity} severity`
+          sentiment = pa.ai_sentiment
+        } else if (isComplaint) {
+          // Varied severity distribution: 5% critical, 25% high, 50% medium, 20% low
+          const sRoll = Math.random()
+          severity = sRoll < 0.05 ? "critical" : sRoll < 0.30 ? "high" : sRoll < 0.80 ? "medium" : "low"
+          category = randomItem(CATEGORY_OPTIONS)
+          sentiment = "negative"
+          summary = SUMMARIES[category] || SUMMARIES.service_quality
+
+          // Generate violations for medium+ severity (70% chance for high/critical, 30% for medium)
+          const shouldHaveViolations = severity === "critical" || severity === "high"
+            ? Math.random() < 0.7
+            : severity === "medium"
+              ? Math.random() < 0.3
+              : false
+
+          if (shouldHaveViolations) {
+            const categoryViolations = SEED_VIOLATIONS[category] || SEED_VIOLATIONS.service_quality
+            const count = severity === "critical" ? 2 : severity === "high" ? Math.min(2, categoryViolations.length) : 1
+            const selected = categoryViolations.slice(0, count).map((v) => ({
+              code: v.code,
+              confidence: severity === "critical" || severity === "high" ? "high" : "medium",
+              explanation: v.explanation,
+            }))
+            violations = JSON.stringify(selected)
+          }
+        } else {
+          // Non-complaints: mostly positive, some neutral
+          sentiment = Math.random() < 0.15 ? "neutral" : "positive"
+        }
+
         insertFeedback.run({
           feedback_id: feedbackId,
           entity_name_en: entity.en,
@@ -162,13 +266,13 @@ export function seedDatabase() {
           dislike_comment: isComplaint ? comment : null,
           general_comment: !isComplaint ? comment : null,
           device_type: randomItem(DEVICE_TYPES),
-          ai_sentiment: pa?.ai_sentiment ?? (isComplaint ? "negative" : "positive"),
-          ai_category: pa?.ai_category ?? (isComplaint ? "service_quality" : null),
-          ai_is_complaint: pa ? (pa.ai_is_complaint ? 1 : 0) : (isComplaint ? 1 : 0),
-          ai_severity: pa?.ai_severity ?? (isComplaint ? "medium" : null),
-          ai_summary: pa ? `AI-classified ${pa.ai_category} issue with ${pa.ai_severity} severity` : null,
-          ai_code_violations: pa?.ai_code_violations ? JSON.stringify(pa.ai_code_violations) : null,
-          processed_at: pa ? new Date().toISOString() : null,
+          ai_sentiment: sentiment,
+          ai_category: category,
+          ai_is_complaint: isComplaint ? 1 : 0,
+          ai_severity: severity,
+          ai_summary: summary,
+          ai_code_violations: violations,
+          processed_at: (isComplaint || pa) ? new Date().toISOString() : null,
         })
       }
     } else {

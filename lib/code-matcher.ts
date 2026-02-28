@@ -60,7 +60,8 @@ function loadPreAnalyzed(): Map<number, PreAnalyzedRecord> {
 }
 
 function isApiAvailable(): boolean {
-  return !!process.env.ANTHROPIC_API_KEY
+  const key = process.env.ANTHROPIC_API_KEY
+  return !!key && key.startsWith("sk-") && key.length > 10
 }
 
 // Select rules most likely relevant to this complaint based on keyword overlap

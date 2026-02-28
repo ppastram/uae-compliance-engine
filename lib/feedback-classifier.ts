@@ -38,7 +38,8 @@ Classify this feedback and return ONLY a JSON object with these fields:
 Handle Arabic and English input. Return JSON only, no markdown fences.`
 
 function isApiAvailable(): boolean {
-  return !!process.env.ANTHROPIC_API_KEY
+  const key = process.env.ANTHROPIC_API_KEY
+  return !!key && key.startsWith("sk-") && key.length > 10
 }
 
 export async function classifyFeedback(input: ClassifyInput): Promise<ClassificationResult> {

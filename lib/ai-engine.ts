@@ -22,7 +22,8 @@ interface FeedbackRow {
 
 export async function processNewFeedback(dbFeedbackId: number): Promise<ProcessingResult> {
   const db = getDb()
-  const mode = process.env.ANTHROPIC_API_KEY ? "live" : "mock"
+  const key = process.env.ANTHROPIC_API_KEY
+  const mode = key && key.startsWith("sk-") && key.length > 10 ? "live" : "mock"
 
   // Fetch the feedback record
   const row = db.prepare("SELECT * FROM feedback WHERE id = ?").get(dbFeedbackId) as FeedbackRow | undefined
