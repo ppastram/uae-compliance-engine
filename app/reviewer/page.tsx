@@ -73,7 +73,7 @@ export default function ReviewerOverviewPage() {
       color: "text-uae-green",
       bg: "bg-uae-green/10",
       borderHover: "hover:border-uae-green/30",
-      href: "/reviewer",
+      href: "/reviewer/cases?status=evidence_submitted",
       urgent: data.needsVerification > 0,
     },
     {
@@ -84,7 +84,7 @@ export default function ReviewerOverviewPage() {
       color: "text-uae-red",
       bg: "bg-uae-red/10",
       borderHover: "hover:border-uae-red/30",
-      href: "/reviewer",
+      href: "/reviewer/cases?status=penalty",
       urgent: data.penaltyCases > 0,
     },
   ]

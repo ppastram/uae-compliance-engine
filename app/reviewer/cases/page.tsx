@@ -1,7 +1,8 @@
 "use client"
 
-import { useState, useEffect, useMemo } from "react"
+import { useState, useEffect, useMemo, Suspense } from "react"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import {
   FolderOpen,
   Shield,
@@ -38,9 +39,19 @@ const STATUS_CONFIG: Record<string, { label: string; color: string; bg: string }
 const ALL_STATUSES = Object.keys(STATUS_CONFIG)
 
 export default function ReviewerCasesPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center h-[50vh]"><Loader2 size={28} className="text-uae-gold animate-spin" /></div>}>
+      <ReviewerCasesContent />
+    </Suspense>
+  )
+}
+
+function ReviewerCasesContent() {
+  const searchParams = useSearchParams()
+  const initialFilter = searchParams.get("status") || "all"
   const [cases, setCases] = useState<CaseItem[]>([])
   const [loading, setLoading] = useState(true)
-  const [activeFilter, setActiveFilter] = useState<string>("all")
+  const [activeFilter, setActiveFilter] = useState<string>(initialFilter)
 
   useEffect(() => {
     fetch("/api/cases")
