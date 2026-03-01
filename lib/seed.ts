@@ -222,7 +222,8 @@ export function seedDatabase() {
         if (pa) {
           severity = pa.ai_severity
           category = pa.ai_category
-          violations = pa.ai_code_violations ? JSON.stringify(pa.ai_code_violations) as string : null
+          // Only keep violations for the first 10 pre-analyzed records to avoid crowding the inbox
+          violations = (i < 10 && pa.ai_code_violations) ? JSON.stringify(pa.ai_code_violations) as string : null
           summary = `AI-classified ${pa.ai_category} issue with ${pa.ai_severity} severity`
           sentiment = pa.ai_sentiment
         } else if (isComplaint) {
@@ -233,12 +234,14 @@ export function seedDatabase() {
           sentiment = "negative"
           summary = SUMMARIES[category] || SUMMARIES.service_quality
 
-          // Generate violations for medium+ severity (70% chance for high/critical, 30% for medium)
-          const shouldHaveViolations = severity === "critical" || severity === "high"
-            ? Math.random() < 0.7
-            : severity === "medium"
-              ? Math.random() < 0.3
-              : false
+          // Generate violations sparingly — only ~15-20 items should appear in reviewer inbox
+          const shouldHaveViolations = severity === "critical"
+            ? Math.random() < 0.12
+            : severity === "high"
+              ? Math.random() < 0.03
+              : severity === "medium"
+                ? Math.random() < 0.03
+                : false
 
           if (shouldHaveViolations) {
             const categoryViolations = SEED_VIOLATIONS[category] || SEED_VIOLATIONS.service_quality
@@ -344,12 +347,12 @@ function createSampleCases(db: import("better-sqlite3").Database) {
       case_number, feedback_id, entity_name_en, violated_codes, violation_summary,
       notification_text, status, notified_at, deadline,
       evidence_text, evidence_files, evidence_submitted_at,
-      reviewer_notes, resolved_at
+      reviewer_notes, resolved_at, history
     ) VALUES (
       @case_number, @feedback_id, @entity_name_en, @violated_codes, @violation_summary,
       @notification_text, @status, @notified_at, @deadline,
       @evidence_text, @evidence_files, @evidence_submitted_at,
-      @reviewer_notes, @resolved_at
+      @reviewer_notes, @resolved_at, @history
     )
   `)
 
@@ -388,6 +391,33 @@ function createSampleCases(db: import("better-sqlite3").Database) {
       ? `Dear ${c.entity_name_en},\n\nFollowing an analysis of citizen feedback received through the Government Services Monitoring System, the following potential non-compliance with the Emirates Code for Government Services has been identified.\n\nViolated Codes: ${c.ai_code_violations}\n\nYou are required to submit evidence of corrective action within 20 working days from the date of this notification.\n\nRegards,\nGovernment Services Compliance Office`
       : null
 
+    // Build history for the evidence_submitted case (index 3) to show multi-round demo
+    let history: string | null = null
+    if (s.status === "evidence_submitted") {
+      const firstSubmitDate = new Date(now.getTime() - 10 * 86400000).toISOString()
+      const rejectionDate = new Date(now.getTime() - 7 * 86400000).toISOString()
+      const secondSubmitDate = new Date(now.getTime() - 3 * 86400000).toISOString()
+      history = JSON.stringify([
+        {
+          type: "evidence_submitted",
+          date: firstSubmitDate,
+          text: "We have conducted an internal review and addressed the staff conduct issues. Verbal warnings have been issued to the relevant employees.",
+          files: ["internal_review_memo.pdf"],
+        },
+        {
+          type: "rejected",
+          date: rejectionDate,
+          notes: "Insufficient documentation. The submitted evidence lacks formal corrective action plans and measurable targets. A verbal warning alone does not constitute adequate remediation. Please provide staff retraining records, updated SOPs, and a monitoring plan.",
+        },
+        {
+          type: "evidence_submitted",
+          date: secondSubmitDate,
+          text: "We have reviewed the flagged issues and implemented the following corrective measures:\n\n1. Staff retraining on service standards completed on 2026-02-15\n2. Updated process documentation to clarify requirements\n3. New feedback monitoring system implemented at the service center\n\nPlease find attached supporting documentation.",
+          files: ["training_records.pdf", "updated_sop.pdf"],
+        },
+      ])
+    }
+
     insertCase.run({
       case_number: caseNum,
       feedback_id: c.id,
@@ -407,6 +437,7 @@ function createSampleCases(db: import("better-sqlite3").Database) {
         : null,
       reviewer_notes: null,
       resolved_at: null,
+      history,
     })
   }
 }

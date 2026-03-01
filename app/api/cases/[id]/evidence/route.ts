@@ -14,25 +14,35 @@ export async function POST(
 
     const db = getDb()
 
-    const existing = db.prepare("SELECT id, status FROM cases WHERE id = ?").get(params.id) as
-      | { id: number; status: string }
+    const existing = db.prepare("SELECT id, status, history FROM cases WHERE id = ?").get(params.id) as
+      | { id: number; status: string; history: string | null }
       | undefined
 
     if (!existing) {
       return NextResponse.json({ error: "Case not found" }, { status: 404 })
     }
 
+    const history: Array<Record<string, unknown>> = existing.history ? JSON.parse(existing.history) : []
+    history.push({
+      type: "evidence_submitted",
+      date: new Date().toISOString(),
+      text: evidence_text,
+      files: evidence_files || [],
+    })
+
     db.prepare(`
       UPDATE cases SET
         status = 'evidence_submitted',
         evidence_text = ?,
         evidence_files = ?,
-        evidence_submitted_at = ?
+        evidence_submitted_at = ?,
+        history = ?
       WHERE id = ?
     `).run(
       evidence_text,
       JSON.stringify(evidence_files || []),
       new Date().toISOString(),
+      JSON.stringify(history),
       params.id,
     )
 

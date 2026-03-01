@@ -13,6 +13,10 @@ import {
   Loader2,
   FileText,
   Timer,
+  LogIn,
+  Mail,
+  Lock,
+  LogOut,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -35,6 +39,19 @@ interface CaseItem {
 
 /* ─── Constants ─── */
 
+const ENTITIES = [
+  "Federal Authority for Identity & Citizenship",
+  "Ministry of Health & Prevention",
+  "Ministry of Interior",
+  "Ministry of Human Resources",
+  "Dubai Electricity & Water Authority",
+  "Abu Dhabi Digital Authority",
+  "Sharjah Municipality",
+  "Ajman Government Services",
+  "Roads & Transport Authority",
+  "Dubai Municipality",
+]
+
 const STATUS_CONFIG: Record<string, { label: string; color: string; bg: string }> = {
   flagged: { label: "Under Review", color: "text-uae-gold", bg: "bg-uae-gold/10" },
   notified: { label: "Awaiting Response", color: "text-uae-red", bg: "bg-uae-red/10" },
@@ -47,15 +64,141 @@ const STATUS_CONFIG: Record<string, { label: string; color: string; bg: string }
 /* ─── Page ─── */
 
 export default function EntityPortalPage() {
+  const [loggedInEntity, setLoggedInEntity] = useState<string | null>(null)
+
+  if (!loggedInEntity) {
+    return <EntityLoginScreen onLogin={setLoggedInEntity} />
+  }
+
+  return <EntityDashboard entity={loggedInEntity} onLogout={() => setLoggedInEntity(null)} />
+}
+
+/* ─── Login Screen ─── */
+
+function EntityLoginScreen({ onLogin }: { onLogin: (entity: string) => void }) {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [entity, setEntity] = useState("")
+  const [error, setError] = useState("")
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    setError("")
+
+    if (!email || !email.includes("@")) {
+      setError("Please enter a valid email address")
+      return
+    }
+    if (!password) {
+      setError("Please enter your password")
+      return
+    }
+    if (!entity) {
+      setError("Please select your entity")
+      return
+    }
+
+    onLogin(entity)
+  }
+
+  return (
+    <div className="flex items-center justify-center min-h-[70vh]">
+      <div className="w-full max-w-md">
+        {/* Logo */}
+        <div className="text-center mb-8">
+          <div className="w-14 h-14 bg-uae-gold/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <Building2 size={28} className="text-uae-gold" />
+          </div>
+          <h1 className="text-xl font-semibold text-uae-black">Entity Portal</h1>
+          <p className="text-sm text-uae-black/40 mt-1">
+            Sign in to manage compliance notifications
+          </p>
+        </div>
+
+        {/* Login Form */}
+        <form onSubmit={handleSubmit} className="bg-white rounded-xl border border-uae-gray-100 shadow-sm p-6 space-y-4">
+          {/* Entity Selector */}
+          <div>
+            <label className="block text-xs font-medium text-uae-black/60 mb-1.5">Entity</label>
+            <select
+              value={entity}
+              onChange={(e) => setEntity(e.target.value)}
+              className="w-full h-10 px-3 rounded-lg border border-uae-gray-100 bg-white text-sm text-uae-black focus:outline-none focus:ring-2 focus:ring-uae-gold/30 focus:border-uae-gold"
+            >
+              <option value="">Select your entity...</option>
+              {ENTITIES.map((e) => (
+                <option key={e} value={e}>{e}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Email */}
+          <div>
+            <label className="block text-xs font-medium text-uae-black/60 mb-1.5">Email</label>
+            <div className="relative">
+              <Mail size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-uae-black/25" />
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="name@entity.gov.ae"
+                className="w-full h-10 pl-9 pr-3 rounded-lg border border-uae-gray-100 text-sm text-uae-black placeholder:text-uae-black/20 focus:outline-none focus:ring-2 focus:ring-uae-gold/30 focus:border-uae-gold"
+              />
+            </div>
+          </div>
+
+          {/* Password */}
+          <div>
+            <label className="block text-xs font-medium text-uae-black/60 mb-1.5">Password</label>
+            <div className="relative">
+              <Lock size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-uae-black/25" />
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Enter your password"
+                className="w-full h-10 pl-9 pr-3 rounded-lg border border-uae-gray-100 text-sm text-uae-black placeholder:text-uae-black/20 focus:outline-none focus:ring-2 focus:ring-uae-gold/30 focus:border-uae-gold"
+              />
+            </div>
+          </div>
+
+          {/* Error */}
+          {error && (
+            <p className="text-xs text-uae-red">{error}</p>
+          )}
+
+          {/* Submit */}
+          <button
+            type="submit"
+            className="w-full h-10 rounded-lg bg-uae-gold text-white text-sm font-medium hover:bg-uae-gold/90 transition-colors flex items-center justify-center gap-2"
+          >
+            <LogIn size={15} />
+            Sign In
+          </button>
+
+          {/* Note */}
+          <p className="text-[10px] text-uae-black/25 text-center pt-1">
+            {/* TODO: Production Feature — Real authentication */}
+            Demo mode — any valid email and password will be accepted
+          </p>
+        </form>
+      </div>
+    </div>
+  )
+}
+
+/* ─── Entity Dashboard ─── */
+
+function EntityDashboard({ entity, onLogout }: { entity: string; onLogout: () => void }) {
   const [cases, setCases] = useState<CaseItem[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("/api/cases")
+    fetch(`/api/cases?entity=${encodeURIComponent(entity)}`)
       .then((r) => r.json())
       .then((d) => { setCases(d.cases || []); setLoading(false) })
       .catch(() => setLoading(false))
-  }, [])
+  }, [entity])
 
   if (loading) {
     return (
@@ -73,16 +216,23 @@ export default function EntityPortalPage() {
   return (
     <div className="max-w-5xl mx-auto">
       {/* Header */}
-      <div className="flex items-center gap-3 mb-6">
-        <div className="w-10 h-10 rounded-lg bg-uae-gold/10 flex items-center justify-center">
-          <Building2 size={20} className="text-uae-gold" />
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-lg bg-uae-gold/10 flex items-center justify-center">
+            <Building2 size={20} className="text-uae-gold" />
+          </div>
+          <div>
+            <h1 className="text-xl font-semibold text-uae-black">Entity Portal</h1>
+            <p className="text-sm text-uae-black/50">{entity}</p>
+          </div>
         </div>
-        <div>
-          <h1 className="text-xl font-semibold text-uae-black">Entity Portal</h1>
-          <p className="text-sm text-uae-black/50">
-            Compliance notifications and response management
-          </p>
-        </div>
+        <button
+          onClick={onLogout}
+          className="flex items-center gap-2 h-9 px-4 rounded-lg border border-uae-gray-100 text-xs font-medium text-uae-black/50 hover:bg-uae-gray-50 transition-colors"
+        >
+          <LogOut size={14} />
+          Sign Out
+        </button>
       </div>
 
       {/* KPI Row */}
@@ -123,7 +273,7 @@ export default function EntityPortalPage() {
         <div className="px-5 py-3 border-b border-uae-gray-100 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <FileText size={14} className="text-uae-gold" />
-            <h2 className="text-sm font-semibold text-uae-black">Cases</h2>
+            <h2 className="text-sm font-semibold text-uae-black">Your Cases</h2>
           </div>
           <span className="text-xs text-uae-black/40">{cases.length} total</span>
         </div>
@@ -131,7 +281,7 @@ export default function EntityPortalPage() {
         {cases.length === 0 ? (
           <div className="p-12 text-center">
             <CheckCircle2 size={32} className="text-uae-green mx-auto mb-2" />
-            <p className="text-sm text-uae-black/50">No cases assigned.</p>
+            <p className="text-sm text-uae-black/50">No compliance cases for your entity.</p>
           </div>
         ) : (
           <div className="divide-y divide-uae-gray-100">
@@ -198,7 +348,6 @@ function CaseRow({ caseItem }: { caseItem: CaseItem }) {
       {/* Case Number */}
       <div className="w-32 shrink-0">
         <p className="text-xs font-mono font-bold text-uae-black">{caseItem.caseNumber}</p>
-        <p className="text-[10px] text-uae-black/30 mt-0.5">{caseItem.entity}</p>
       </div>
 
       {/* Status Badge */}

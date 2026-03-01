@@ -47,6 +47,9 @@ export async function GET(
     let evidenceFiles: string[] = []
     try { if (row.evidence_files) evidenceFiles = JSON.parse(row.evidence_files as string) } catch { /* skip */ }
 
+    let history: Array<Record<string, unknown>> = []
+    try { if (row.history) history = JSON.parse(row.history as string) } catch { /* skip */ }
+
     const enrichedViolations = violatedCodes.map((v) => {
       const rule = rules.get(v.code)
       return {
@@ -78,6 +81,7 @@ export async function GET(
       severity: row.ai_severity,
       category: row.ai_category,
       feedbackDate: row.feedback_date,
+      history,
     })
   } catch (error) {
     console.error("Case detail error:", error)

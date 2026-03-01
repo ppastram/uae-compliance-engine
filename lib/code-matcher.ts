@@ -161,7 +161,8 @@ export async function matchCodeViolations(input: MatchInput): Promise<CodeViolat
     messages: [{ role: "user", content: userMessage }],
   })
 
-  const text = response.content[0].type === "text" ? response.content[0].text : "[]"
+  const raw = response.content[0].type === "text" ? response.content[0].text : "[]"
+  const text = raw.replace(/```json\n?|```\n?/g, "").trim()
   return JSON.parse(text) as CodeViolation[]
 }
 

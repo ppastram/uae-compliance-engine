@@ -1,22 +1,36 @@
-import { NextResponse } from "next/server"
+import { NextRequest, NextResponse } from "next/server"
 import { getDb } from "@/lib/db"
 
 export const dynamic = "force-dynamic"
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
     const db = getDb()
+    const entityFilter = request.nextUrl.searchParams.get("entity")
 
-    const cases = db.prepare(`
-      SELECT
-        c.id, c.case_number, c.entity_name_en, c.violated_codes, c.violation_summary,
-        c.status, c.notified_at, c.deadline, c.evidence_text, c.evidence_files,
-        c.evidence_submitted_at, c.reviewer_notes, c.resolved_at, c.created_at,
-        f.dislike_comment, f.general_comment, f.ai_severity, f.ai_category
-      FROM cases c
-      LEFT JOIN feedback f ON c.feedback_id = f.id
-      ORDER BY c.id DESC
-    `).all() as Array<{
+    const query = entityFilter
+      ? `SELECT
+          c.id, c.case_number, c.entity_name_en, c.violated_codes, c.violation_summary,
+          c.status, c.notified_at, c.deadline, c.evidence_text, c.evidence_files,
+          c.evidence_submitted_at, c.reviewer_notes, c.resolved_at, c.created_at,
+          f.dislike_comment, f.general_comment, f.ai_severity, f.ai_category
+        FROM cases c
+        LEFT JOIN feedback f ON c.feedback_id = f.id
+        WHERE c.entity_name_en = ?
+        ORDER BY c.id DESC`
+      : `SELECT
+          c.id, c.case_number, c.entity_name_en, c.violated_codes, c.violation_summary,
+          c.status, c.notified_at, c.deadline, c.evidence_text, c.evidence_files,
+          c.evidence_submitted_at, c.reviewer_notes, c.resolved_at, c.created_at,
+          f.dislike_comment, f.general_comment, f.ai_severity, f.ai_category
+        FROM cases c
+        LEFT JOIN feedback f ON c.feedback_id = f.id
+        ORDER BY c.id DESC`
+
+    const cases = (entityFilter
+      ? db.prepare(query).all(entityFilter)
+      : db.prepare(query).all()
+    ) as Array<{
       id: number
       case_number: string
       entity_name_en: string

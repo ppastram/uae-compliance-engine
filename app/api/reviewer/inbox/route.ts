@@ -96,7 +96,11 @@ export async function GET() {
           violations: enrichedViolations,
         }
       })
-      .sort((a, b) => (SEVERITY_ORDER[a.severity] ?? 9) - (SEVERITY_ORDER[b.severity] ?? 9))
+      .sort((a, b) => {
+        const sevDiff = (SEVERITY_ORDER[a.severity] ?? 9) - (SEVERITY_ORDER[b.severity] ?? 9)
+        if (sevDiff !== 0) return sevDiff
+        return new Date(b.date).getTime() - new Date(a.date).getTime()
+      })
 
     return NextResponse.json({ items })
   } catch (error) {

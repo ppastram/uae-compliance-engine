@@ -14,24 +14,30 @@ export async function POST(
 
     const db = getDb()
 
-    const existing = db.prepare("SELECT id, status FROM cases WHERE id = ?").get(params.id) as
-      | { id: number; status: string }
+    const existing = db.prepare("SELECT id, status, history FROM cases WHERE id = ?").get(params.id) as
+      | { id: number; status: string; history: string | null }
       | undefined
 
     if (!existing) {
       return NextResponse.json({ error: "Case not found" }, { status: 404 })
     }
 
+    const history: Array<Record<string, unknown>> = existing.history ? JSON.parse(existing.history) : []
+
     if (action === "accept") {
+      const notes = reviewer_notes || "Evidence accepted — case closed."
+      history.push({ type: "accepted", date: new Date().toISOString(), notes })
       db.prepare(`
         UPDATE cases SET
           status = 'compliant',
           reviewer_notes = ?,
-          resolved_at = ?
+          resolved_at = ?,
+          history = ?
         WHERE id = ?
       `).run(
-        reviewer_notes || "Evidence accepted — case closed.",
+        notes,
         new Date().toISOString(),
+        JSON.stringify(history),
         params.id,
       )
       return NextResponse.json({ success: true, status: "compliant" })
@@ -39,12 +45,27 @@ export async function POST(
       if (!reviewer_notes) {
         return NextResponse.json({ error: "reviewer_notes required for rejection" }, { status: 400 })
       }
+      history.push({ type: "rejected", date: new Date().toISOString(), notes: reviewer_notes })
+      const newDeadline = new Date(Date.now() + 20 * 24 * 60 * 60 * 1000).toISOString()
       db.prepare(`
         UPDATE cases SET
-          reviewer_notes = ?
+          status = 'notified',
+          reviewer_notes = ?,
+          notified_at = ?,
+          deadline = ?,
+          evidence_text = NULL,
+          evidence_files = NULL,
+          evidence_submitted_at = NULL,
+          history = ?
         WHERE id = ?
-      `).run(reviewer_notes, params.id)
-      return NextResponse.json({ success: true, status: existing.status })
+      `).run(
+        reviewer_notes,
+        new Date().toISOString(),
+        newDeadline,
+        JSON.stringify(history),
+        params.id,
+      )
+      return NextResponse.json({ success: true, status: "notified" })
     }
   } catch (error) {
     console.error("Verify error:", error)

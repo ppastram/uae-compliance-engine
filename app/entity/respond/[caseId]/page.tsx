@@ -22,6 +22,14 @@ import { toast } from "sonner"
 
 /* ─── Types ─── */
 
+interface HistoryEvent {
+  type: "evidence_submitted" | "rejected" | "accepted"
+  date: string
+  text?: string
+  files?: string[]
+  notes?: string
+}
+
 interface CaseDetail {
   id: number
   caseNumber: string
@@ -50,6 +58,7 @@ interface CaseDetail {
   severity: string | null
   category: string | null
   feedbackDate: string | null
+  history: HistoryEvent[]
 }
 
 /* ─── Constants ─── */
@@ -154,14 +163,15 @@ export default function EntityRespondPage() {
 
   const status = STATUS_CONFIG[caseData.status] || STATUS_CONFIG.flagged
   const deadline = caseData.deadline ? getDeadlineInfo(caseData.deadline) : null
+  const isRejected = caseData.status === "notified" && !!caseData.reviewerNotes
   const canRespond = caseData.status === "notified" && !submitted
-  const alreadySubmitted = caseData.status === "evidence_submitted" || submitted
+  const alreadySubmitted = (caseData.status === "evidence_submitted" || submitted) && !isRejected
 
   return (
     <div className="max-w-3xl mx-auto">
       {/* Back Button */}
       <button
-        onClick={() => router.push("/entity")}
+        onClick={() => router.back()}
         className="inline-flex items-center gap-1.5 text-xs font-medium text-uae-black/40 hover:text-uae-black/60 mb-4 transition-colors"
       >
         <ArrowLeft size={14} />
@@ -299,6 +309,102 @@ export default function EntityRespondPage() {
                 action plan. This case has been escalated to the Government Services Council.
                 Penalties may be applied in accordance with the Emirates Code for Government Services.
               </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Previous Submission History */}
+      {caseData.history && caseData.history.length > 0 && (
+        <div className="bg-white rounded-xl border border-uae-gray-100 shadow-sm overflow-hidden mb-4">
+          <div className="px-5 py-3 border-b border-uae-gray-100 flex items-center gap-2">
+            <Clock size={14} className="text-uae-black/40" />
+            <h2 className="text-sm font-semibold text-uae-black">Submission History</h2>
+          </div>
+          <div className="p-5 space-y-3">
+            {caseData.history.map((evt, idx) => {
+              if (evt.type === "evidence_submitted") {
+                const round = caseData.history.filter((e, j) => e.type === "evidence_submitted" && j <= idx).length
+                return (
+                  <div key={idx} className="px-4 py-3 rounded-lg border border-uae-gray-100 bg-uae-gray-50/50">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <Send size={12} className="text-uae-gold" />
+                      <span className="text-[10px] font-semibold uppercase tracking-wider text-uae-black/40">
+                        Submission Round {round}
+                      </span>
+                      <span className="text-[10px] text-uae-black/30">{formatDate(evt.date)}</span>
+                    </div>
+                    {evt.text && (
+                      <p className="text-xs text-uae-black/50 leading-relaxed whitespace-pre-wrap line-clamp-3">
+                        {evt.text}
+                      </p>
+                    )}
+                    {evt.files && evt.files.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mt-1.5">
+                        {evt.files.map((f) => (
+                          <span key={f} className="inline-flex items-center gap-1 text-[10px] text-uae-black/40 bg-white px-2 py-0.5 rounded border border-uae-gray-100">
+                            <File size={10} className="text-uae-gold" />
+                            {f}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )
+              }
+              if (evt.type === "rejected") {
+                return (
+                  <div key={idx} className="px-4 py-3 rounded-lg border border-uae-red/15 bg-uae-red/[0.02]">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <AlertTriangle size={12} className="text-uae-red" />
+                      <span className="text-[10px] font-semibold uppercase tracking-wider text-uae-red">
+                        Rejected
+                      </span>
+                      <span className="text-[10px] text-uae-black/30">{formatDate(evt.date)}</span>
+                    </div>
+                    <p className="text-xs text-uae-black/60 leading-relaxed whitespace-pre-wrap">{evt.notes}</p>
+                  </div>
+                )
+              }
+              if (evt.type === "accepted") {
+                return (
+                  <div key={idx} className="px-4 py-3 rounded-lg border border-uae-green/15 bg-uae-green/[0.02]">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <CheckCircle2 size={12} className="text-uae-green" />
+                      <span className="text-[10px] font-semibold uppercase tracking-wider text-uae-green">
+                        Accepted
+                      </span>
+                      <span className="text-[10px] text-uae-black/30">{formatDate(evt.date)}</span>
+                    </div>
+                    <p className="text-xs text-uae-black/60 leading-relaxed">{evt.notes}</p>
+                  </div>
+                )
+              }
+              return null
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Rejection Banner — evidence was rejected, resubmission required */}
+      {isRejected && !submitted && (
+        <div className="bg-uae-red/5 rounded-xl border border-uae-red/20 shadow-sm p-6 mb-4">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-uae-red/10 flex items-center justify-center shrink-0">
+              <AlertTriangle size={24} className="text-uae-red" />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-uae-red">Evidence Rejected — Resubmission Required</h3>
+              <p className="text-xs text-uae-black/60 mt-1 leading-relaxed">
+                Your previously submitted evidence has been reviewed and was not accepted.
+                Please review the reason below and resubmit with adequate corrective evidence within the new deadline.
+              </p>
+              <div className="mt-3 px-4 py-3 rounded-lg bg-white border border-uae-red/10">
+                <p className="text-[10px] uppercase tracking-wider text-uae-black/40 mb-1">Reviewer Feedback</p>
+                <p className="text-xs text-uae-black/70 leading-relaxed whitespace-pre-wrap">
+                  {caseData.reviewerNotes}
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -24,6 +24,14 @@ import { toast } from "sonner"
 
 /* ─── Types ─── */
 
+interface HistoryEvent {
+  type: "evidence_submitted" | "rejected" | "accepted"
+  date: string
+  text?: string
+  files?: string[]
+  notes?: string
+}
+
 interface CaseDetail {
   id: number
   caseNumber: string
@@ -52,6 +60,7 @@ interface CaseDetail {
   severity: string | null
   category: string | null
   feedbackDate: string | null
+  history: HistoryEvent[]
 }
 
 /* ─── Constants ─── */
@@ -122,7 +131,7 @@ export default function VerifyCasePage() {
     })
     setSubmitting(false)
     if (res.ok) {
-      toast.success("Rejection note saved")
+      toast.success("Evidence rejected — entity notified to resubmit")
       setShowRejectForm(false)
       loadCase()
     } else {
@@ -244,11 +253,11 @@ export default function VerifyCasePage() {
               </div>
               <div className="space-y-1.5">
                 {caseData.violatedCodes.map((v, i) => (
-                  <div key={i} className="flex items-start gap-2 px-2.5 py-1.5 rounded bg-uae-red/[0.03] border border-uae-red/10">
+                  <div key={i} className="flex items-start gap-2 px-2.5 py-1.5 rounded bg-uae-red/[0.03] border border-uae-red/10 overflow-hidden">
                     <span className="text-[10px] font-mono font-bold text-uae-red shrink-0 mt-px">{v.code}</span>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <span className="text-[10px] text-uae-black/40">{v.category}</span>
-                      <p className="text-[11px] text-uae-black/50 truncate">{v.explanation}</p>
+                      <p className="text-[11px] text-uae-black/50 break-words">{v.explanation}</p>
                     </div>
                   </div>
                 ))}
@@ -272,50 +281,124 @@ export default function VerifyCasePage() {
             )}
           </TimelineStep>
 
-          <TimelineStep
-            step={4}
-            title="Entity Response"
-            date={caseData.evidenceSubmittedAt}
-            status={
-              caseData.evidenceText
-                ? "completed"
-                : isPenalty
-                  ? "failed"
-                  : caseData.notifiedAt
-                    ? "current"
-                    : "pending"
-            }
-            isLast={false}
-          >
-            {caseData.evidenceText ? (
-              <div className="space-y-2">
-                <div className="px-3 py-2 rounded-lg bg-uae-gray-50 border border-uae-gray-100">
-                  <p className="text-xs text-uae-black/60 leading-relaxed whitespace-pre-wrap">
-                    {caseData.evidenceText}
+          {/* History Events — submissions and rejections */}
+          {caseData.history && caseData.history.length > 0 ? (
+            caseData.history.map((evt, idx) => {
+              if (evt.type === "evidence_submitted") {
+                const round = caseData.history.filter((e, j) => e.type === "evidence_submitted" && j <= idx).length
+                return (
+                  <TimelineStep
+                    key={`hist-${idx}`}
+                    step={4 + idx}
+                    title={`Entity Response (Round ${round})`}
+                    date={evt.date}
+                    status="completed"
+                    isLast={false}
+                  >
+                    <div className="space-y-2">
+                      {evt.text && (
+                        <div className="px-3 py-2 rounded-lg bg-uae-gray-50 border border-uae-gray-100">
+                          <p className="text-xs text-uae-black/60 leading-relaxed whitespace-pre-wrap">
+                            {evt.text}
+                          </p>
+                        </div>
+                      )}
+                      {evt.files && evt.files.length > 0 && (
+                        <div className="space-y-1">
+                          <p className="text-[10px] text-uae-black/40 font-medium">Attached files:</p>
+                          {evt.files.map((f) => (
+                            <div key={f} className="flex items-center gap-2 px-2.5 py-1.5 rounded bg-uae-gray-50 border border-uae-gray-100">
+                              <File size={12} className="text-uae-gold" />
+                              <span className="text-[11px] text-uae-black/60">{f}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </TimelineStep>
+                )
+              }
+              if (evt.type === "rejected") {
+                return (
+                  <TimelineStep
+                    key={`hist-${idx}`}
+                    step={4 + idx}
+                    title="Evidence Rejected"
+                    date={evt.date}
+                    status="failed"
+                    isLast={false}
+                  >
+                    <div className="px-3 py-2 rounded-lg bg-uae-red/5 border border-uae-red/20">
+                      <p className="text-[10px] text-uae-red font-medium uppercase tracking-wider mb-0.5">Reviewer Feedback</p>
+                      <p className="text-xs text-uae-black/60 leading-relaxed whitespace-pre-wrap">{evt.notes}</p>
+                    </div>
+                  </TimelineStep>
+                )
+              }
+              if (evt.type === "accepted") {
+                return (
+                  <TimelineStep
+                    key={`hist-${idx}`}
+                    step={4 + idx}
+                    title="Evidence Accepted"
+                    date={evt.date}
+                    status="completed"
+                    isLast={false}
+                  >
+                    <div className="px-3 py-2 rounded-lg bg-uae-green/5 border border-uae-green/20">
+                      <p className="text-xs text-uae-green font-medium">{evt.notes}</p>
+                    </div>
+                  </TimelineStep>
+                )
+              }
+              return null
+            })
+          ) : (
+            <TimelineStep
+              step={4}
+              title="Entity Response"
+              date={caseData.evidenceSubmittedAt}
+              status={
+                caseData.evidenceText
+                  ? "completed"
+                  : isPenalty
+                    ? "failed"
+                    : caseData.notifiedAt
+                      ? "current"
+                      : "pending"
+              }
+              isLast={false}
+            >
+              {caseData.evidenceText ? (
+                <div className="space-y-2">
+                  <div className="px-3 py-2 rounded-lg bg-uae-gray-50 border border-uae-gray-100">
+                    <p className="text-xs text-uae-black/60 leading-relaxed whitespace-pre-wrap">
+                      {caseData.evidenceText}
+                    </p>
+                  </div>
+                  {caseData.evidenceFiles.length > 0 && (
+                    <div className="space-y-1">
+                      <p className="text-[10px] text-uae-black/40 font-medium">Attached files:</p>
+                      {caseData.evidenceFiles.map((f) => (
+                        <div key={f} className="flex items-center gap-2 px-2.5 py-1.5 rounded bg-uae-gray-50 border border-uae-gray-100">
+                          <File size={12} className="text-uae-gold" />
+                          <span className="text-[11px] text-uae-black/60">{f}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : isPenalty ? (
+                <div className="px-3 py-2 rounded-lg bg-uae-red/5 border border-uae-red/20">
+                  <p className="text-xs text-uae-red font-medium">
+                    No response received — deadline expired.
                   </p>
                 </div>
-                {caseData.evidenceFiles.length > 0 && (
-                  <div className="space-y-1">
-                    <p className="text-[10px] text-uae-black/40 font-medium">Attached files:</p>
-                    {caseData.evidenceFiles.map((f) => (
-                      <div key={f} className="flex items-center gap-2 px-2.5 py-1.5 rounded bg-uae-gray-50 border border-uae-gray-100">
-                        <File size={12} className="text-uae-gold" />
-                        <span className="text-[11px] text-uae-black/60">{f}</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ) : isPenalty ? (
-              <div className="px-3 py-2 rounded-lg bg-uae-red/5 border border-uae-red/20">
-                <p className="text-xs text-uae-red font-medium">
-                  No response received — deadline expired.
-                </p>
-              </div>
-            ) : (
-              <p className="text-xs text-uae-black/30 italic">Awaiting entity response...</p>
-            )}
-          </TimelineStep>
+              ) : (
+                <p className="text-xs text-uae-black/30 italic">Awaiting entity response...</p>
+              )}
+            </TimelineStep>
+          )}
 
           <TimelineStep
             step={5}
@@ -473,7 +556,7 @@ function TimelineStep({
       </div>
 
       {/* Content */}
-      <div className={cn("flex-1 pb-6", isLast && "pb-0")}>
+      <div className={cn("flex-1 min-w-0 pb-6", isLast && "pb-0")}>
         <div className="flex items-center gap-2 mb-2">
           <h3 className={cn(
             "text-xs font-semibold",

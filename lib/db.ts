@@ -55,6 +55,7 @@ function initializeSchema(db: Database.Database) {
       evidence_submitted_at DATETIME,
       reviewer_notes TEXT,
       resolved_at DATETIME,
+      history TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `)

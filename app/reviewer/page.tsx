@@ -62,7 +62,7 @@ export default function ReviewerOverviewPage() {
       color: "text-uae-gold",
       bg: "bg-uae-gold/10",
       borderHover: "hover:border-uae-gold/30",
-      href: "/reviewer/inbox",
+      href: "/reviewer/cases?status=notified",
       urgent: false,
     },
     {
